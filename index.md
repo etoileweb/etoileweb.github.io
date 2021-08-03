@@ -1,4 +1,4 @@
 ---
 layout: index
-title: Five Star Plugins Documentation
+title: Etoile Web Design Documentation
 ---
