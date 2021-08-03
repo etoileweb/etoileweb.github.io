@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
-title: Etoile Web Design Documentation
-description: Build better WordPress websites with Etoile Web Design plugins. 
+name: Test Github Pages w/ Jeckyll
+markdown: kramdown
+gems:
+  - jekyll-sitemap
