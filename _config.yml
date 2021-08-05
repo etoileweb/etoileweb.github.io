@@ -1,4 +1,4 @@
-name: Test Github Pages w/ Jeckyll
+name: Etoile Web Design Github Pages w/ Jeckyll
 markdown: kramdown
 plugins:
   - jekyll-sitemap
