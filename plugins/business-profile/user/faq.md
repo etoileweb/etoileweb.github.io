@@ -4,7 +4,7 @@ slug: business-profile
 menu: user
 title: Frequently Asked Questions
 ---
-Quick answers to your most common questions. Anything missing? [Let us know](https://www.fivestarplugins.com/support-center/).
+Quick answers to your most common questions. Anything missing? [Let us know](https://www.etoilewebdesign.com/support-center/).
 
 ## <a name="shortcode"></a> Can I show or hide something with the shortcode?
 
@@ -60,7 +60,7 @@ On the following screen, you'll be asked to set a Name and the websites this wil
 
 Enter whatever you'd like in the Name. The other part, **Accept requests from these HTTP referrers (web sites)** can be a bit more tricky.
 
-The simplest way to do this is to replace `fivestarplugins.com` in the screenshot with your domain name. So if your site is `myrestaurant.com`, you would use:
+The simplest way to do this is to replace `etoilewebdesign.com` in the screenshot with your domain name. So if your site is `myrestaurant.com`, you would use:
 
 `myrestaurant.com/*`
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: plate-up
+slug: keep-calm-and-e-comm
 menu: user
 title: Changelog
 ---

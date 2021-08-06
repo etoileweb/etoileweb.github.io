@@ -1,10 +1,10 @@
 ---
 layout: default
-slug: plate-up
+slug: ultimate-showcase
 menu: user
 title: Frequently Asked Questions
 ---
-Quick answers to your most pressing questions. Anything missing? [Let us know](https://www.fivestarplugins.com/support-center/).
+Quick answers to your most pressing questions. Anything missing? [Let us know](https://www.etoilewebdesign.com/support-center/).
 
 {% include theme/user/faq/colors.md %}
 
@@ -78,7 +78,7 @@ I recommend using the footer widget areas. Visitors to your website will commonl
 
 ## <a name="photo-gallery"></a> How can I create a photo gallery that opens in a lightbox like the demo?
 
-WordPress supports great photo galleries right out of the box and this theme displays them beautifully. I like them so much that I wrote a [step-by-step guide on how to add photo galleries](https://www.fivestarplugins.com/2015/12/08/creating-photo-galleries-the-wordpress-way/) to your pages and posts.
+WordPress supports great photo galleries right out of the box and this theme displays them beautifully. I like them so much that I wrote a [step-by-step guide on how to add photo galleries](https://www.etoilewebdesign.com/2015/12/08/creating-photo-galleries-the-wordpress-way/) to your pages and posts.
 
 When you're following the guide to create a gallery, make sure that you set the **Link to** option to "Media File". This theme will automatically display such photos in a lightbox when they're clicked.
 

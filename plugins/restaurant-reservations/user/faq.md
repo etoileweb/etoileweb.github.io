@@ -4,7 +4,7 @@ slug: restaurant-reservations
 menu: user
 title: Frequently Asked Questions
 ---
-Quick answers to your most common questions. Anything missing? [Let us know](https://www.fivestarplugins.com/support-center/).
+Quick answers to your most common questions. Anything missing? [Let us know](https://www.etoilewebdesign.com/support-center/).
 
 ## <a name="shortcode"></a>Is there a shortcode to print the booking form?
 
@@ -41,7 +41,7 @@ You’ll need to explore this issue further with your web host. If you contact t
 
 If you or your web host would like more technical details about how the plugin configures the email headers, you can find some details in [this support request](https://wordpress.org/support/topic/e-mails-not-being-send/#post-7562496).
 
-If your web host is not able or willing to resolve the problem, or you'd like to explore more reliable email delivery, read [how I use Postmark to make sure emails are delivered every time](https://www.fivestarplugins.com/2016/05/24/make-sure-restaurant-emails-delivered-every-time/).
+If your web host is not able or willing to resolve the problem, or you'd like to explore more reliable email delivery, read [how I use Postmark to make sure emails are delivered every time](https://www.etoilewebdesign.com/2016/05/24/make-sure-restaurant-emails-delivered-every-time/).
 
 ### <a name="no-emails-from-header"></a>Changing the FROM header
 
@@ -64,7 +64,7 @@ If you're not familiar with that process, I'd recommend you take a look at the [
 Users with the Administrator and Booking Manager roles are exempt from these restrictions. This is so that they can make last-minute changes to bookings as needed. If you want to test the Early or Late Bookings restrictions, try submitting a reservation while logged out from the site.
 
 ## <a name="custom-fields"></a>I want to add a field to the form. Can I do that?
-The [Custom Fields addon](https://www.fivestarplugins.com/plugin/custom-fields-restaurant-reservations)  will allow you to add a field or modify some of the existing fields of the booking form.
+The [Custom Fields addon](https://www.etoilewebdesign.com/plugin/custom-fields-restaurant-reservations)  will allow you to add a field or modify some of the existing fields of the booking form.
 
 Developers who are comfortable coding up plugins for WordPress can add their own fields using the hooks provided. See the [developer documentation](../developer).
 
@@ -76,7 +76,7 @@ First, you can add a confirmation field to the booking form that requires custom
 
 Second, you can delete all bookings related to a single email address. To do this, find the **Submitted By** column in the Bookings list. Click the **Delete Customer** link there to delete booking information related to that email address. You will _not_ be able to undo this.
 
-GDPR gives customers the right to request you delete all information about them. Using this feature will remove all booking data related to that email address from your WordPress database. If you are using the [MailChimp addon](https://www.fivestarplugins.com/plugins/five-star-restaurant-reservations/mailchimp/), you will also need to remove their email address from any mailing list you have there.
+GDPR gives customers the right to request you delete all information about them. Using this feature will remove all booking data related to that email address from your WordPress database. If you are using the [MailChimp addon](https://www.etoilewebdesign.com/plugins/five-star-restaurant-reservations/mailchimp/), you will also need to remove their email address from any mailing list you have there.
 
 ## <a name="wpml"></a>Is this compatible with WPML?
 
@@ -98,7 +98,7 @@ In the qTranslate settings, go to **Advanced Settings > Conversion Date/Time** a
 
 I provide the best support for the free plugin that I'm able to provide for free. But there is only so much I'm able to do while keeping my business sustainable. Still, I'd encourage you to [post your support request on the official forums](http://wordpress.org/support/plugin/restaurant-reservations) and I'll help out as best I can.
 
-If you have purchased any of the commercial addons, please reach out to me via the [support form on my website](https://www.fivestarplugins.com/support-center/).
+If you have purchased any of the commercial addons, please reach out to me via the [support form on my website](https://www.etoilewebdesign.com/support-center/).
 
 {% include faq/refund.md %}
 

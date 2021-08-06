@@ -4,10 +4,10 @@ slug: restaurant-reservations
 menu: user
 title: Install and Activate
 plugin_title: Email Templates
-plugin_url: https://www.fivestarplugins.com/plugins/five-star-restaurant-reservations/email-templates/
+plugin_url: https://www.etoilewebdesign.com/plugins/five-star-restaurant-reservations/email-templates/
 plugin_zip: email-templates-for-rtb.zip
 plugin_parent: Five Star Restaurant Reservations
-plugin_parent_url: https://www.fivestarplugins.com/plugins/five-star-restaurant-reservations/
+plugin_parent_url: https://www.etoilewebdesign.com/plugins/five-star-restaurant-reservations/
 ---
 {% include plugins/install_addon.md %}
 

@@ -4,7 +4,7 @@ slug: good-reviews-wp
 menu: user
 title: Frequently Asked Questions
 ---
-Quick answers to your most common questions. Anything missing? [Let us know](https://www.fivestarplugins.com/support-center/).
+Quick answers to your most common questions. Anything missing? [Let us know](https://www.etoilewebdesign.com/support-center/).
 
 ## <a name="shortcode"></a> Is there a shortcode to print all of my reviews?
 

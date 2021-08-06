@@ -4,7 +4,7 @@ slug: food-and-drink-menu
 menu: user
 title: Frequently Asked Questions (FAQ)
 ---
-Quick answers to your most common questions. Anything missing? [Let us know](https://www.fivestarplugins.com/support-center/).
+Quick answers to your most common questions. Anything missing? [Let us know](https://www.etoilewebdesign.com/support-center/).
 
 ## <a name="menu-item-order"></a> How do I change the order of items on my menu?
 
@@ -18,7 +18,7 @@ If you want one Menu Item to be listed after another, make sure it's **Order** v
 
 Version 1.5 of the plugin adds support for setting multiple prices. If you don't see an option to add a price for a Menu Item, please make sure you've upgraded to the latest version.
 
-Additionally, the [premium version](https://www.fivestarplugins.com/plugins/five-star-restaurant-menu/) supports a discounted price.
+Additionally, the [premium version](https://www.etoilewebdesign.com/plugins/five-star-restaurant-menu/) supports a discounted price.
 
 ## <a name="columns-collapsed"></a> I have a two-column menu but it displays in one column.
 
@@ -101,7 +101,7 @@ By default, the plugin sets the display size to 25% of the menu item width, and 
 
 I provide the best support for the free plugin that I'm able to provide for free. But there is only so much I'm able to do while keeping my business sustainable. Still, I'd encourage you to [post your support request on the official forums](http://wordpress.org/support/plugin/food-and-drink-menu) and I'll help out as best I can.
 
-If you have purchased the [premium version](pro), please reach out to ous via the [support form on our website](https://www.fivestarplugins.com/support-center/).
+If you have purchased the [premium version](pro), please reach out to ous via the [support form on our website](https://www.etoilewebdesign.com/support-center/).
 
 {% include faq/refund.md %}
 

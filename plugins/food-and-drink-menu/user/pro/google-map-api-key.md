@@ -24,7 +24,7 @@ On the following screen, you'll be asked to set a Name and the websites this wil
 
 Enter whatever you'd like in the Name. The other part, **Accept requests from these HTTP referrers (web sites)** can be a bit more tricky.
 
-The simplest way to do this is to replace `fivestarplugins.com` in the screenshot with your domain name. So if your site is `myrestaurant.com`, you would use:
+The simplest way to do this is to replace `etoilewebdesign.com` in the screenshot with your domain name. So if your site is `myrestaurant.com`, you would use:
 
 `myrestaurant.com/*`
 

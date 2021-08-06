@@ -10,4 +10,4 @@ It covers more advanced features, such as [shortcode parameters](advanced/shortc
 
 There's an [FAQ](faq) that answers many of the most common questions. And a [support forum](http://wordpress.org/support/plugin/food-and-drink-menu) for the free plugin.
 
-If you need help with the [premium version](pro), please use the [contact form](https://www.fivestarplugins.com/support-center/) on our website.
+If you need help with the [premium version](pro), please use the [contact form](https://www.etoilewebdesign.com/support-center/) on our website.
