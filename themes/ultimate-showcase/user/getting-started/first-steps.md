@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: plate-up
+slug: ultimate-showcase
 menu: user
 title: Recommended first steps to start building your site
 ---
