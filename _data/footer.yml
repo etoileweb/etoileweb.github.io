@@ -1,6 +1,6 @@
 plugins:
   - title: Ultimate Product Catalog
-    page: restaurant-reservations
+    page: ultimate-product-catalog
 
   - title: Ultimate FAQs
     page: food-and-drink-menu
