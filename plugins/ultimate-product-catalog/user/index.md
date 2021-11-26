@@ -4,8 +4,22 @@ slug: ultimate-product-catalog
 menu: user
 title: Ultimate Product Catalog User Guide
 ---
-This user guide is for anyone ho wants to learn how to [install the plugin](getting-started/install), [configure the bookings options](config), [manage bookings](manage), or use one of the commercial addons.
+This user guide provides documentation for the Ultimate Product Catalog plugin. It covers the following topics:
 
-There's a [FAQ](faq) that answers many of the most common questions. And a [support forum](https://wordpress.org/support/plugin/ultimate-product-catalogue) for the free plugin.
+- [Installing the plugin](getting-started/install)
+- [Products](products)
+- [Catalogs](catalogs)
+- [Block and Shortcodes](block-shortcodes)
+- [Premium Version](premium)
+- [Custom Fields](custom-fields)
+- [WooCommerce Integration](woocommerce)
+- [Product Page](product-page)
+- [SEO](seo)
+- [Settings](settings)
+- [Styling](styling)
+- [Labelling and translation](labelling)
+- [Support](support)
 
-If you need help with any of the commercial addons, please use the [contact form](https://www.etoilewebdesign.com/support-center/) on my website.
+There's also an [FAQ](faq) that answers many of the most common questions. And a [support forum](https://wordpress.org/support/plugin/ultimate-product-catalogue) for the free plugin.
+
+If you need help with the premium version, please use our [support center](https://www.etoilewebdesign.com/support-center/).

@@ -2,26 +2,29 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Confirm and Reject Bookings
+title: Create a Product
 ---
-To confirm or reject a booking, tick the checkbox to the left of a booking. Select the action you'd like to take and then click the **Apply** button. In this image, we're about to confirm a booking.
+To create a new product in your WordPress admin, go to **Product Catalog > Products > Add New**. You'll see the following page:
 
-![Screenshot of confirming a booking](/img/{{ page.slug }}/bookings-confirm.png)
+![Screenshot of the Add New Product page](/img/{{ page.slug }}/upcp-add-new-product.png)
 
-If you have several pending bookings, you can confirm them all at once by ticking the checkboxes beside multiple bookings before clicking the **Apply** button.
+Start by giving the product a name and description. After this, you can use the **Product Details** section underneath to set the price for your product, as well as a sale price, if applicable.
 
-## Confirm or reject a booking without sending an email notification
+The **Product Link** field lets you specify a URL that the visitor should be directed to when they click on the product in the catalog. This replaces the default product page.
 
-By default, when you confirm or reject a booking, an email will be sent to the customer informing them. If you'd like to confirm or reject a booking without sending out an email notification, you can do this through the edit booking popup.
+On the right of the screen, you'll see a number of panels for adding information to your product. Here you can do the following:
 
-![Screenshot of the Edit modal on the Bookings page](/img/{{ page.slug }}/bookings-edit-modal.png)
+- Assign the product to one or more categories
+- Addign the product one or more tags
+- Set a featured image for the product. This will be the main product image.
 
-Change the booking status to whatever you'd like, make sure the checkbox next to *Send Notifications* is **not** checked, and then edit the booking.
+Once you click the **Publish** button at the top, your product will be published. Now you're ready to [add it to a catalog](../catalogs/add-products).
 
-This is useful in situations where you may need to make changes to a booking after speaking to a customer directly.
+## Premium Features
 
-## Confirm or reject a booking directly from an email notification
+If you have the premium version of the plugin, you will see several extra panels in the **Product Details** Section. These are:
 
-If you've enabled the Admin Notification Email in the [settings](../config/email-notifications), you can include a quick link to confirm or reject a booking straight from the email.
-
-In order for this to work, you'll need to be logged into your WordPress website. Keeping a tablet or mobile phone in your restaurant that's logged in is a great way to quickly manage incoming booking requests.
+- **Custom Fields**: Here you can assign values for any existing custom fields. *[Find out more about custom fields](../custom-fields).*
+- **Related**: Here you can set which products to show as the related and/or next and previous products (if you have these set to manual in the [settings](../settings/premium)).
+- **Images**: Here you can add additional images for the product.
+- **Videos**: Here you can add videos for the product. You just need to insert a YouTube URL for each video.

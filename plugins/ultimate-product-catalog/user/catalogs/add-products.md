@@ -2,32 +2,17 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Set the Booking Schedule
+title: Add Products to a Catalog
 ---
-You probably only want to accept bookings when you're open. Maybe you only want people to book for certain times.
+Adding products to a catalog is easy and can be done just below where you set the catalog title and description, in the **Catalog Details** section.
 
-On the **Bookings > Settings > Schedule** page you can define scheduling rules which limit the times people are allowed to book in your restaurant.
+![Screenshot of the Add New Catalog page](/img/{{ page.slug }}/upcp-add-products-to-catalog.gif)
 
-![Screenshot of the schedule settings page](/img/{{ page.slug }}/settings-schedule.png)
+Click the **ADD** button to display a pop-up, in which you can select items to add to your catalog. You can add either individual products or whole categories. 
 
-## Scheduling Rules
+Adding a whole category will automatically add all the products in that category. This has the following added benefits:
 
-In the screenshot above, two scheduling rules have been set up. One which allows bookings any time from 12pm-10pm Monday to Friday. And a second which allows bookings from 12pm-11pm on Saturday and Sunday.
+- It will automatically break your catalog up by category and add in category headings (if you have not disabled that in the settings).
+- It will make it so that, when you create a new product and add it to the category, that product will automatically appear in the catalog, under that category. You will not need to individually add that product to the catalog.
 
-Click the **Add new scheduling rule** button to add a new rule.
-
-You can create as many different rules as you need to configure your weekly schedule. The plugin will automatically merge all of the available times and display them correctly in the date and time picker.
-
-## Scheduling Exceptions
-
-On holidays you're likely to close or have special opening hours. The exceptions schedule allows you to define custom rules for specific days. These will override the settings you've configured in the normal scheduling rules.
-
-## Early and Late Bookings
-
-To help you manage bookings more easily, you may want to prevent customers from making bookings right at the last minute, or months in advance.
-
-These settings are useful so that you don't get a flood of last-minute bookings when your staff are busy in the restaurant.
-
----
-
-Finally, you'll want to [configure the notifications](email-notifications) that are sent out.
+To delete a product or category from the catalog, just click the **Delete** button beside it.

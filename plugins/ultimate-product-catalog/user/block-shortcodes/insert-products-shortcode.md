@@ -2,42 +2,30 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Frequently Asked Questions
+title: insert-products Shortcode
 ---
-*The following frequently asked questions only cover the [Email Templates](../email-templates) addon.*
+The plugin comes with a separate shortcode that lets you insert products on any page on your site (other than the catalog page). This is useful if, for example, you'd like to include some featured products on your homepage. The shortcode is:
 
-## Can I use different colors for each template?
+`[insert-products catalogue_url="https://www.your-site.com/catalog-page/" product_count="4" catalogue_id="123"]`
 
-No, the color and logo options can only be set for all templates at once.
+![Gif of adding the shortcode](/img/{{ page.slug }}/upcp-add-product-catalog-shortcode.gif)
 
-## Should I use a different template for each email?
+## Attributes
 
-Probably not. It's up to you, but each template has it's own character and identity. You probably want to maintain a consistent identity across all of your communications. That way, customers will learn to recognize your emails.
+The insert-products shortcode takes the following attributes:
 
-## Can I use notification template tags?
+`catalogue_url` This attribute is required and makes it so that, when someone clicks on a product, they are correctly brought to the product page. Input the URL of the page on which you have placed the Display Product Catalog block or the product-catalog shortcode.
 
-Yes, you can use the notification template tags in the Lead Sentence, Footer Message and Email Acknowledgement settings. This allows you to enter details about the booking or your site into these areas.
+`product_count` This attribute is used to set the number of products you want to show. The default is 3 (so, if you want 3, you do not need to use this attribute).
 
-You can find all template tags listed under the **Bookings > Settings > Notifications** area in your WordPress admin. Learn more about [notification template tags](../../config/email-notifications).
+*One of the following four attributes is also required, to correctly populate the shortcode:*
 
-## I want to customize the email template even further.
+`catalogue_id` This attribute is used to select which catalog to show products from. You can find the ID for a catalog by going to the **Catalogs** page. The ID will show in the last column of the table there.
 
-You can override any of the email templates with your own template file in your theme. Simply copy the template you want to use from `/wp-content/plugins/email-templates-for-rtb/email-templates` into your theme.
+`category_id` This attribute is used to show products from specific categories. Takes the category ID. To find the ID of a category, go to the **Categories** page and click on the category. The ID will show in your browser's address bar.
 
-If your theme is located at `/wp-content/themes/my-theme/`, copy the template to `/wp-content/themes/my-theme/etfrtb_templates` and start editing. When you select that template, the plugin will automatically load your customized template.
+`subcategory_id` This attribute is used to show products from specific sub-categories. Takes the sub-category ID. To find the ID of a sub-category, go to the **Categories** page and click on the sub-category. The ID will show in your browser's address bar.
 
-*You should be careful when designing your own templates. HTML and CSS is not as reliable in emails as it is in your web browser. This plugin uses heavily-tested templates from [litmus.com](https://litmus.com/).*
+`product_ids` This attribute is used to specify which individual products you want to show. Takes a comma-separated list of product IDs. To find the ID of a product, go to the **Products** page. The ID will show in the **Post ID** column (last column) of the table there. For example:
 
-If you are an advanced developer and you want to perform more extensive integrations, this addon includes a number of hooks to help you do that. You can register your own email templates, load email templates from anywhere (including a custom plugin), and deliver custom data to the templates.
-
-I don't yet have comprehensive developer documentation for this, but here is a quick list of the most valuable hooks.
-
-- `etfrtb_template_options` - *Filter*. Modify the list of available templates.
-- `etfrtb_template_directories` - *Filter*. Modify the list of directories where templates can be found.
-- `etfrtb_designer_setup` - *Action*. Fired after the email template class is set up. Modify data available in the template here.
-
-If you have any questions, don't hesitate to contact me via the [support form on my website](https://www.etoilewebdesign.com/contact).
-
-{% include faq/support.md %}
-
-{% include faq/refund.md %}
+`[insert-products catalogue_url="https://www.your-site.com/catalog-page/" product_ids="123,124,125"]`

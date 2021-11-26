@@ -2,42 +2,60 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Frequently Asked Questions
+title: product-catalog Shortcode
 ---
-*The following frequently asked questions only cover the [Email Templates](../email-templates) addon.*
+You can add a catalog to your page using the following shortcode:
 
-## Can I use different colors for each template?
+`[product-catalog id="X"]`
 
-No, the color and logo options can only be set for all templates at once.
+or
 
-## Should I use a different template for each email?
+`[product-catalogue id="X"]`
 
-Probably not. It's up to you, but each template has it's own character and identity. You probably want to maintain a consistent identity across all of your communications. That way, customers will learn to recognize your emails.
+Where "X" is the ID of your catalog. You can find the exact shortcode for the catalog you want to display by going to the **Catalogs** page.
 
-## Can I use notification template tags?
+![Screenshot of shortcode in Catalogs tab](/img/{{ page.slug }}/upcp-catalogs-tab-shortcode.png)
 
-Yes, you can use the notification template tags in the Lead Sentence, Footer Message and Email Acknowledgement settings. This allows you to enter details about the booking or your site into these areas.
+Copy that shortcode and then, on the page edit screen, just click the + button and add a new shortcode block to the page. Then paste in the shortcode.
 
-You can find all template tags listed under the **Bookings > Settings > Notifications** area in your WordPress admin. Learn more about [notification template tags](../../config/email-notifications).
+![Gif of adding the shortcode](/img/{{ page.slug }}/upcp-add-product-catalog-shortcode.gif)
 
-## I want to customize the email template even further.
+## Attributes
 
-You can override any of the email templates with your own template file in your theme. Simply copy the template you want to use from `/wp-content/plugins/email-templates-for-rtb/email-templates` into your theme.
+The product-catalog shortcode takes the following attributes:
 
-If your theme is located at `/wp-content/themes/my-theme/`, copy the template to `/wp-content/themes/my-theme/etfrtb_templates` and start editing. When you select that template, the plugin will automatically load your customized template.
+`id` This attribute is used to specify the ID of the catalog you want to display. You can find the ID for a catalog by going to the **Catalogs** page, as referenced above.
 
-*You should be careful when designing your own templates. HTML and CSS is not as reliable in emails as it is in your web browser. This plugin uses heavily-tested templates from [litmus.com](https://litmus.com/).*
+`starting_layout` This attribute is used to select which of the three available catalog layouts (Thumbnail, Detail or List) you want as your starting layout. All three layouts will still show regardless of the selection here. You must capitalize the layout name.
 
-If you are an advanced developer and you want to perform more extensive integrations, this addon includes a number of hooks to help you do that. You can register your own email templates, load email templates from anywhere (including a custom plugin), and deliver custom data to the templates.
+`excluded_layouts` This attribute is used to specify any layouts that you don't want to be included on your catalog page. You must capitalize the layout name and comma-separate each entry. For example: *Thumbnail,List*
 
-I don't yet have comprehensive developer documentation for this, but here is a quick list of the most valuable hooks.
+`sidebar` This attribute is used to select whether or not you want the filtering sidebar to display on the catalog page. Takes "Yes" or "No" as a value.
 
-- `etfrtb_template_options` - *Filter*. Modify the list of available templates.
-- `etfrtb_template_directories` - *Filter*. Modify the list of directories where templates can be found.
-- `etfrtb_designer_setup` - *Action*. Fired after the email template class is set up. Modify data available in the template here.
+`overview_mode` This attribute is used to set which overview mode to use. Takes "Full" or "Categories" as a value. Don't include the attribute if you don't want to use overview mode or have specified your choice in the settings.
 
-If you have any questions, don't hesitate to contact me via the [support form on my website](https://www.etoilewebdesign.com/contact).
+`category` This attribute is used to pre-filter the catalog to show only products from one specific category. Takes the category ID. To find the ID of a category, go to the **Categories** page and click on the category. The ID will show in your browser's address bar.
 
-{% include faq/support.md %}
+`subcategory` This attribute is used to pre-filter the catalog to show only products from one specific sub-category. Takes the sub-category ID. To find the ID of a sub-category, go to the **Categories** page and click on the sub-category. The ID will show in your browser's address bar.
 
-{% include faq/refund.md %}
+`tags` This attribute is used to pre-filter the catalog to show only products from one specific tag. Takes the tag ID. To find the ID of a tag, go to the **Tags** page and click on the tag. The ID will show in your browser's address bar. 
+
+`prod_name` This attribute is used to pre-filter the catalog to a specific search term.
+
+`max_price` This attribute is used to pre-filter the catalog to show only prices that are equal to or less than the specified value. 
+
+`min_price` This attribute is used to pre-filter the catalog to show only prices that are equal to or more than the specified value. 
+
+`orderby` This attribute is used to specify the sort order of the catalog when the page loads. Available options are: *name*, *price*, *rating* or *date*
+
+`order` This attribute is used to set whether you want the sort order (for the option chosen using the **orderby** attribute) to be ascending or descending. Accepted values are: *ASC* or *DESC*
+
+`omit_fields` This attribute is used to omit specific fields from the product comparison page. Takes a comma-separated list. The following fields are available: *image,price,categories,subcategories,tags*
+
+`products_per_page` (Premium only) This attribute is used to specify the number of products per page you want to show.
+
+`current_page` (Premium only) This attribute is used to select which page the catalog should load on if you have set a specific number of products per page.
+
+Example using all attributes:
+
+`[product-catalog id="123" starting_layout="Detail" excluded_layouts="Thumbnail,List" sidebar="No" overview_mode="Full" category="2" sub-category="9" tags="14" prod_name="bicycle" max_price="900" min_price="100" orderby="name" order="ASC" omit_fields="categories,tags" products_per_page="10" current_page="2"]`

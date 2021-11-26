@@ -2,32 +2,15 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Using the Email Designer
+title: Display Catalog Block
 ---
-Once you have [installed and activated](install) the addon, go to the **Bookings > Settings** page in your WordPress admin area. Browse to the **Notifications** tab and click the **Launch Email Designer** button.
+The name of the Gutenberg block is **Display Product Catalog**. It can be found in its own category/section called **Ultimate Product Catalog**. Alternatively, when you add a new block, you can just search for **Display Product Catalog** and add that block to the page.
 
-![Screenshot indicating the button to launch the email designer](/img/{{ page.slug }}/email-templates-launch-designer.png)
+![Gif of adding the catalog block](/img/{{ page.slug }}/upcp-display-catalog-block.gif)
 
-The Email Designer allows you to preview each of your notification emails, change the colors and templates, upload your own logo, and include special lead sentences.
+You will see several options in the right sidebar.
 
-![Screenshot of the email designer](/img/{{ page.slug }}/email-templates-designer-overview.png)
-
-Click on the **Logos & Colors** section to add your restaurant's logo and set colors to match your brand.
-
-![Screenshot of the logos and colors options](/img/{{ page.slug }}/email-templates-logos-colors.png)
-
-In this section, you can also customize the Email Acknowledgement. This is an important message which tells the recipient why they're receiving this email. In some countries, including this acknowledgement is a legal requirement, so I encourage you to keep it. But you can edit it however you'd like.
-
-When you click on any of the sections for other emails, the live preview will update to show you that notification email. Each notification email can use it's own template, lead sentence and footer message. Here are the options for the Admin Notification email, shown in the Conversations template.
-
-![Screenshot of the admin notification email's options](/img/{{ page.slug }}/email-templates-admin-email.png)
-
-Each of the email templates has a different layout and style. You'll want to check each email to make sure it looks great. Here's an example of the Stationary template.
-
-![Screenshot of the stationary template](/img/{{ page.slug }}/email-templates-stationary.png)
-
-When you're happy with the outcome, don't forget to click **Save & Publish**.
-
-![Screenshot indicating the save and publish button](/img/{{ page.slug }}/email-templates-save.png)
-
-Still have questions? Take a look at the [FAQ](faq).
+- **Which Catalog**: Use this dropdown to select which catalog you want to display on the page.
+- **Sidebar**: Use this dropdown to select whether or not you want to display the filtering sidebar on your catalog page. 
+- **Starting Layout**: Use this dropdown to select which of the three available catalog layouts (thumbnail, detail or list) you want as your starting layout. All three layouts will still show regardless of the selection here.
+- **Excluded Layouts**: You can use this field to specify any layouts that you don't want to be included on your catalog page. You must capitalize the layout name and comma-separate each entry. For example: *Thumbnail,List*

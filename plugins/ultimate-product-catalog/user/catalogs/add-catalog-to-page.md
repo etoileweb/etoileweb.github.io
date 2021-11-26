@@ -2,30 +2,30 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Email Notifications
+title: Add Catalog to a Page
 ---
-Ultimate Product Catalog sends email notifications when a booking is made, rejected or confirmed. On the **Bookings > Settings > Notifications** page you can customize these emails to fit your brand.
+To add your catalog to a page, you can use either the included Gutenberg block or shortcode.
 
-![Screenshot of the notifications settings page](/img/{{ page.slug }}/settings-notifications.png)
+For the Gutenberg block, on the page edit screen, just click the + button to add a new block, search for **Display Product Catalog** and add that block to the page. You will see options in the right sidebar that let you choose which catalog you want to display, whether or not to show the filtering sidebar, as well as to set the starting and excluded layouts.
 
-When a booking is made, the customer is sent an email to let them know the request has been received, *but has not yet been accepted*.
+![Gif of adding the catalog block](/img/{{ page.slug }}/upcp-display-catalog-block.gif)
 
-A notification email is also sent the administrator so that they know they need to act on a new request. You can disable this by un-checking the **Admin Notification** checkbox.
+[More information about the block](../block-shortcodes/display-catalog-block).
 
-Once a booking is confirmed or rejected, the customer will receive another email. In the settings on this page, you can customize each one of these emails.
+You can also add the catalog to your page using the following shortcode:
 
-## Understanding the template tags
+`[product-catalog id="X"]`
 
-You can include a number of Template Tags in your notification emails. These act like placeholders, swapping in information specific to each booking before the email is sent.
+or
 
-For example, let's suppose you included the following in your email template:
+`[product-catalogue id="X"]`
 
-> A new booking request has been made by {user_name}.
+Where "X" is the ID of your catalog. You can find the exact shortcode for the catalog you want to display by going to the **Catalogs** page.
 
-And then a customer named "John" made a booking request. The email you received would say:
+![Screenshot of shortcode in Catalogs tab](/img/{{ page.slug }}/upcp-catalogs-tab-shortcode.png)
 
-> A new booking request has been made by John.
+Copy that shortcode and then, on the page edit screen, just click the + button and add a new shortcode block to the page. Then paste in the shortcode.
 
-This allows you to add data from the booking straight into the email, so that you don't need to jump back into your WordPress site to know the most important details.
+![Gif of adding the shortcode](/img/{{ page.slug }}/upcp-add-product-catalog-shortcode.gif)
 
-*If you use the [Custom Fields addon](../addon/custom-fields), you'll be able to use new template tags for any of your custom field data.*
+You can view more information and all the available shortcode attributes [here](../block-shortcodes/product-catalog-shortcode).

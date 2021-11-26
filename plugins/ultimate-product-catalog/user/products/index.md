@@ -2,36 +2,15 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Manage Bookings
+title: Products
 ---
-Go to the **Bookings** page in your WordPress admin area to find all of your bookings. In the screenshot below, there's one pending booking coming up.
+Go to the **Products** page in plugin admin area to find all of your products.
 
-![Screenshot of the Bookings page](/img/{{ page.slug }}/bookings.png)
+![Screenshot of the Ultimate Product Catalog Products tab](/img/{{ page.slug }}/upcp-products-tab.png)
 
-*When you first arrive on the page it will only show you upcoming bookings. But you can [view other bookings too](find-bookings)!*
+Here you will see an overview of all your products, including the description, price, categories, sub-categories and number of views for each. If you have many products, the list may be broken up into multiple pages. 
 
-## View a message left during booking
+You can sort the products by title, date, price or number of views simply by clicking the column heading. You can also search for a product or filter the products using the date dropdown field.
 
-If the customer has left a message when making their booking, you'll find that under the Details column on the right.
+To edit a product, just click on its title. To [create a new product](create), click the **Add New** button at the top.
 
-![Screenshot of the Details column on the Bookings page](/img/{{ page.slug }}/bookings-details.png)
-
-![Screenshot of the Details popup on the Bookings page](/img/{{ page.slug }}/bookings-details-modal.png)
-
-*When you're using the [Custom Fields addon](../addon/custom-fields), you'll find your custom fields here too.*
-
-## Edit the details of a booking
-
-You can edit each booking by moving your mouse over the booking in the list and clicking the **Edit** link.
-
-![Screenshot of the Edit link on the Bookings page](/img/{{ page.slug }}/bookings-edit.png)
-
-![Screenshot of the Edit modal on the Bookings page](/img/{{ page.slug }}/bookings-edit-modal.png)
-
-This is useful in cases where a customer might phone in with a change to their booking.
-
-*When you edit a booking in this way, no notifications are sent to the customer by default. Check the __Send Notifications__ box if you want to send notifications out.*
-
----
-
-The first thing you'll probably want to do, though, is [confirm or reject a booking](confirm-reject-bookings).

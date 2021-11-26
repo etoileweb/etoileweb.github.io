@@ -15,18 +15,15 @@ user:
     - title: Install Plugin
       page: user/getting-started/install
 
-    - title: Quick Setup
+    - title: Walk-Through
       page: user/getting-started/setup
 
   - title: Products
     page: user/products
     flags: products
     items:
-    - title: Creating a Product
+    - title: Create a Product
       page: user/products/create
-
-    - title: Editing a Product
-      page: user/products/edit
 
     - title: Categories
       page: user/products/categories
@@ -34,10 +31,10 @@ user:
     - title: Tags
       page: user/products/tags
 
-    - title: Exporting Products to a Spreadsheet (Premium)
+    - title: Export Products to a Spreadsheet (Premium)
       page: user/products/export
 
-    - title: Importing Products from a Spreadsheet (Premium)
+    - title: Import Products from a Spreadsheet (Premium)
       page: user/products/import
 
   - title: Catalogs
@@ -53,7 +50,7 @@ user:
     - title: Order of Products
       page: user/catalogs/order
 
-    - title: Adding Catalog to a Page
+    - title: Add Catalog to a Page
       page: user/catalogs/add-catalog-to-page
 
   - title: Block and Shortcodes 
@@ -63,10 +60,10 @@ user:
     - title: Display Catalog Block
       page: user/block-shortcodes/display-catalog-block
 
-    - title: product-catalog shortcode
+    - title: product-catalog Shortcode
       page: user/block-shortcodes/product-catalog-shortcode
 
-    - title: insert-products shortcode
+    - title: insert-products Shortcode
       page: user/block-shortcodes/insert-products-shortcode
 
   - title: Premium Version 
@@ -76,7 +73,7 @@ user:
     - title: Benefits of Premium
       page: user/premium/benefits
 
-    - title: Activating
+    - title: Activate Premium
       page: user/premium/activating
       
   - title: Custom Fields 
@@ -117,8 +114,11 @@ user:
     page: user/settings
     flags: settings
     items:
-    - title: Placeholder
-      page: user/settings/placeholder
+    - title: Basic Settings
+      page: user/settings/basic
+
+    - title: Premium Settings
+      page: user/settings/premium
 
   - title: Styling
     page: user/styling
