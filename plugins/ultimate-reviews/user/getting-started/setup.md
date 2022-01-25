@@ -1,21 +1,34 @@
 ---
 layout: default
-slug: business-profile
+slug: ultimate-reviews
 menu: user
-title: Quick Setup
+title: Walk-Through
 ---
-Once the plugin is [installed and activated](install), go to the new **Business Profile** page in your WordPress admin area.
+When you first activate the plugin, it will automatically run a walk-through that will help you add pages to accept and display reviews, create review categories and set a few key options.
 
-![Screenshot of the business profile page](/img/{{ page.slug }}/business-profile.png)
+![Screenshot of Ultimate Reviews walk-through](/img/{{ page.slug }}/urp-walkthrough.png)
 
-On this page you can enter your business name, contact information and opening hours. You'll also be asked to enter a few details you might not understand. The [FAQ](../faq) explains more details about the [Schema Type](../faq#schema-type) as well as the [Google Maps API Key](../faq/#google-maps-api-key).
+The walk-through consists of four steps.
 
-## Display your contact card
+1. **Submit Review Page**: This will create a new page on your WordPress site and place the submit review form on it.
 
-Business Profile allows you to display these details on any page, post or sidebar.
+2. **Display Reviews Page**: This will create a new page on your WordPress site to display your reviews.
 
-- Add the Contact Card block to any page or post.
-- Use the `[contact-card]` shortcode in any page or post. See all the [shortcode attributes](../faq#shortcode).
-- Add the Contact Card widget in any sidebar. You'll find this under **Appearance > Widgets**.
+3. **Set Key Options**: Here you can configure a few of the main options in the plugin, such as the maximum review score, the score input type and review filtering options.
 
-When you use one of these techniques to display your business profile, it will be printed with [Schema.org](http://schema.org/) markup, which allows Google and other search engines to better interpret your business details.
+4. **Categories**: This lets you create one or more categories, which you can then assign your reviews to. 
+
+If you'd like, you can re-run the walk-through at any time by going to the following URL in your WordPress admin:
+
+`admin.php?page=ewd-urp-getting-started`
+
+So, if, for example, your site domain is:
+
+`https://www.my-site.com/`
+
+Then, to restart the walk-through, you would go to: 
+
+`https://www.my-site.com/admin.php?page=ewd-urp-getting-started`
+
+You're now ready to learn more about [Reviews](../reviews) and the available [blocks and shortcodes](../blocks-shortcodes).
+

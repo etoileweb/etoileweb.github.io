@@ -2,34 +2,35 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Frequently Asked Questions
+title: WooCommerce FAQ
 ---
-*The following frequently asked questions only cover the [Export Bookings](../export-bookings) addon.*
+## I have WooCommerce Sync enabled, but my products aren't syncing
 
-## <a name="corrupt-pdf-exports"></a>The PDF export doesn't work. It results in a blank screen, a broken download file or a bunch of gibberish.
+Try the following troubleshooting steps:
 
-The default PDF renderer, mPDF, is not compatible with all servers. You can switch to a more widely compatible renderer by going to the **Bookings > Settings > Export** page in your WordPress admin area, and selecting the TCPDF renderer.
+1. Make sure you have the WooCommerce plugin activated.
+2. Disable and then re-enable the **WooCommerce Sync** option in our plugin.
+3. Make a change to a product in our plugin and then save it. This should force a new sync.
+4. Create a new product in our plugin. Does that one sync? If so, the issue is likely with a specific product, and likely with the way it's set up on the WooCommerce side.
+    - Are you using any (other) third-party WooCommerce plugins/add-ons? If so, it could be that the meta data they add to a product is blocking the sync. If, as a test, you temporarily deactivate said plugin, does the sync then work? 
+    - Have you set up any special **attributes** in WooCommerce? If so, try manually creating a custom field in our plugin to match. 
 
-In some rare cases, this may not be compatible as well. You may be able to get help by asking your web host, who can change the configuration of your server.
+## Custom fields are not syncing with WooCommerce attributes
 
-I've worked hard to ensure as wide a compatibility as possible. But if you're unable to get it working, I'll happily [provide a refund](#refund).
+Have you set up any special **attributes** in WooCommerce? If so, try manually creating a custom field in our plugin to match. 
 
-## Can I customize the PDF template?
+Alternatively, try creating a new product in our plugin and assigning a custom field value to it. This should automatically sync over to WooCommerce as a new attribute. Then, you can move over to the WooCommerce side and modify the attribute as you need.
 
-Yes. To customize the template, you'll need to be able to edit template files similar to how you might edit your theme's template files.
+## Can I disable the item count that shows in the cart?
 
-Here are the complete steps:
+Yes, on the **Settings > WooCommerce** page, there is an option for this called **Disable Cart Item Count**.
 
-1. Determine which PDF renderer you are using. Go to **Bookings > Settings > Export** and look at the setting under PDF Renderer. It will be TCPDF or mPDF.
+## Can I make it so the button in the cart pane goes to the cart page instead of the checkout page?
 
-2. Copy the appropriate matching `.php` file from your `/wp-content/plugins/export-bookings-for-rtb/templates/` directory. If you're using the mPDF renderer, copy the `mpdf.php` file.
+Yes, on the **Settings > WooCommerce** page, you can use the **WooCommerce Cart Page** option to choose which page you want it to go to.
 
-3. Edit the template however you'd like. Please note that the mPDF renderer is not as smart as a modern web browser. It only supports CSS 2.1 specifications, so it may not recognize all the CSS you're used to using. The TCPDF renderer is even tougher to work with.
+## Can I make change the breadcrumb on the WooCommerce product page to link back to the catalog instead of WooCommerce's shop page?
 
-4. Upload the edited template file to your theme directory under a new `/ebfrtb-templates/` directory. This will likely look like `/wp-content/themes/your-theme/ebfrtb-templates/mpdf.php`.
+This is possible. On the **Settings > WooCommerce** page, you can use **WooCommerce Back Link** option to do this. Please note that **WooCommerce Product Page** must be enabled for this to work.
 
-Once the template has been uploaded to your theme, the plugin will automatically use your template instead of the default one.
-
-{% include faq/support.md %}
-
-{% include faq/refund.md %}
+For help and support, please see [here](../support).

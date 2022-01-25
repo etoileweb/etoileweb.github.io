@@ -1,11 +1,15 @@
 ---
 layout: default
-slug: business-profile
+slug: ultimate-reviews
 menu: user
-title: Five Star Business Profile & Schema Documentation
+title: Ultimate Reviews Documentation
 ---
-This documentation will help you use [Business Profile](https://wordpress.org/plugins/business-profile), a WordPress plugin for to provide SEO-optimized contact information for local businesses that is free to download and use on any website built with WordPress.
+This user guide and developer documentation will help you use [Ultimate Reviews](https://wordpress.org/plugins/ultimate-reviews/), a plugin that lets you add a review submit form to your WordPress website and also display these reviews.
 
-For help learning how to install the plugin, add your details and display them on your website, visit the [User Guide](user).
+The following help is divided into two sections, depending on your needs.
 
-To learn about customizing templates and extending the plugin with actions and filters, visit the [Developer Documentation](developer).
+## User Guide ##
+For help learning how to install the plugin, create and display reviews on your site, how to add the review submission form, and how to use all the available features, visit the [User Guide](user).
+
+## Developer Documentation ##
+For programmers interested in learning how to modify or extend the plugin with the available template system, <!--filters and hooks, -->visit the [Developer Documentation](developer).

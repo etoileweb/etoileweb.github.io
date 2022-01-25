@@ -1,7 +1,25 @@
 ---
 layout: default
-slug: good-reviews-wp
+slug: order-tracking
 menu: user
-title: Five Star Restaurant Reviews User Guide
+title: Order Tracking User Guide
 ---
-The user guide is for anyone who wants to learn how to [install the  plugin](getting-started/install), [add reviews](getting-started/add) and [display them on your website](getting-started/display).
+This user guide provides documentation for the Order Tracking plugin. It covers the following topics:
+
+- [Installing the plugin](getting-started/install)
+- [Orders](orders)
+- [Blocks and Shortcodes](blocks-shortcodes)
+- [Premium Version](premium)
+- [Customers](customers)
+- [Sales Reps](sales-reps)
+- [Custom Fields](custom-fields)
+- [WooCommerce Integration](woocommerce)
+- [Emails](emails)
+- [Settings](settings)
+- [Styling](styling)
+- [Labelling and translation](labelling)
+- [Support](support)
+
+There's also an [FAQ](faq) that answers many of the most common questions. And a [support forum](https://wordpress.org/support/plugin/order-tracking) for the free plugin.
+
+If you need help with the premium version, please use our [support center](https://www.etoilewebdesign.com/support-center/).

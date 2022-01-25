@@ -1,13 +1,24 @@
 ---
 layout: default
-slug: food-and-drink-menu
+slug: ultimate-faq
 menu: user
-title: Five Star Restaurant Menu User Guide
+title: Ultimate FAQ User Guide
 ---
-The user guide is for anyone who wants to learn how to [install the  plugin](getting-started/install), [create menus](getting-started/create-menu) and [display them on your WordPress website](getting-started/display-menu).
+This user guide provides documentation for the Ultimate FAQ plugin. It covers the following topics:
 
-It covers more advanced features, such as [shortcode parameters](advanced/shortcodes), optional [settings](advanced/settings) and the many features of the plugin's [premium version](pro).
+- [Installing the plugin](getting-started/install)
+- [FAQs](faqs)
+- [Blocks and Shortcodes](blocks-shortcodes)
+- [Premium Version](premium)
+- [FAQ Search](search)
+- [Custom Fields](custom-fields)
+- [WooCommerce Integration](woocommerce)
+- [WPForms](wpforms)
+- [Settings](settings)
+- [Styling](styling)
+- [Labelling and translation](labelling)
+- [Support](support)
 
-There's an [FAQ](faq) that answers many of the most common questions. And a [support forum](http://wordpress.org/support/plugin/food-and-drink-menu) for the free plugin.
+There's also an [FAQ](faq) that answers many of the most common questions. And a [support forum](https://wordpress.org/support/plugin/ultimate-faqs) for the free plugin.
 
-If you need help with the [premium version](pro), please use the [contact form](https://www.etoilewebdesign.com/support-center/) on our website.
+If you need help with the premium version, please use our [support center](https://www.etoilewebdesign.com/support-center/).

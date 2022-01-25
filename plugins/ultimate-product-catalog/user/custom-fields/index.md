@@ -2,8 +2,16 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
+plugin_title: Ultimate Product Catalog
 title: Custom Fields 
 ---
-[Custom Fields](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/custom-fields/) is a commercial addon for [Ultimate Product Catalog](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/) which allows you to add fields to your booking form and adjust some of the existing fields.
+Custom fields are a feature of the [premium version](../premium) of the {{ page.plugin_title }} that let you add extra fields to your products, which can be displayed on the catalog and product pages, and which can be used for filtering your catalog.
 
-If you've purchashed the addon, you can get advice on [how to install and activate it](install) or view the [frequently asked questions](faq).
+The custom fields are very versatile and can be used in many different ways. For example, you can create a field to specify the color of a shirt or the size of a bicycle, and let people filter the catalog based on a specific value, so they can more quickly find what they're looking for. Or you can use it to upload a PDF instruction manual for a product, and link to it directly from the product page.
+
+For more info on custom fields, please see the following sections:
+
+- [Creating and editing custom fields](create)
+- [Assigning a custom field value to a product](products)
+- [Using custom fields as filters](filters)
+- [Display custom field value via shortcode](shortcodes)

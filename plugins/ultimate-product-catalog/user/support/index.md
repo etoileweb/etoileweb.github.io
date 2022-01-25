@@ -2,8 +2,10 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Export Bookings 
+title: Support 
 ---
-[Export Bookings](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/export-bookings/) is a commercial addon for [Ultimate Product Catalog](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/) which allows you to export your bookings to PDF or Excel/CSV files.
+We've tried to make this documentation as thorough and accessible as possible. 
 
-If you've purchashed the addon, you can get advice on [how to install and activate it](install) or view the [frequently asked questions](faq).
+In addition to this documentation, we have a whole [series of video tutorials](youtube) on our YouTube channel.
+
+If you are not able to find the answer to a question or issue in the the documentation or tutorial videos, then you can [contact our support team](contact) for assistance.

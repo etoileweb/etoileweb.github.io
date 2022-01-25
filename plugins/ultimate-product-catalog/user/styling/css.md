@@ -2,34 +2,77 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Frequently Asked Questions
+title: Custom CSS
 ---
-*The following frequently asked questions only cover the [Export Bookings](../export-bookings) addon.*
+In certain cases, you may not be able to achieve exactly what you want using only the styling options. To further customize the look and layout of your catalog, you can add some of your own CSS.
 
-## <a name="corrupt-pdf-exports"></a>The PDF export doesn't work. It results in a blank screen, a broken download file or a bunch of gibberish.
+We recommend using the Additional CSS area in your theme's customizer for this.
 
-The default PDF renderer, mPDF, is not compatible with all servers. You can switch to a more widely compatible renderer by going to the **Bookings > Settings > Export** page in your WordPress admin area, and selecting the TCPDF renderer.
+*Please note that using custom CSS to modify the look of your catalog requires knowledge of CSS. Attempting to modify your catalog without this knowledge may result in messing up the layout and even possibly altering/removing certain functionality.*
 
-In some rare cases, this may not be compatible as well. You may be able to get help by asking your web host, who can change the configuration of your server.
+As an example, let's say that, on the tabbed product page, you want the image area to take up less space and the tabbed area to take up more. This is easily achievable with a few lines of CSS. For example, the following CSS makes the images div smaller and the tabs div wider:
 
-I've worked hard to ensure as wide a compatibility as possible. But if you're unable to get it working, I'll happily [provide a refund](#refund).
+`.ewd-upcp-single-product-images-div {
+  width: 27%;
+}`
+`.ewd-upcp-single-product-details {
+  width: 67%;
+}`
 
-## Can I customize the PDF template?
+![Gif of adding the catalog block](/img/{{ page.slug }}/upcp-custom-css-1.gif)
 
-Yes. To customize the template, you'll need to be able to edit template files similar to how you might edit your theme's template files.
+## CSS Selectors
 
-Here are the complete steps:
+Some common CSS selectors from the plugin are:
 
-1. Determine which PDF renderer you are using. Go to **Bookings > Settings > Export** and look at the setting under PDF Renderer. It will be TCPDF or mPDF.
+`.ewd-upcp-catalog-sidebar` Main sidebar container
 
-2. Copy the appropriate matching `.php` file from your `/wp-content/plugins/export-bookings-for-rtb/templates/` directory. If you're using the mPDF renderer, copy the `mpdf.php` file.
+`.ewd-upcp-catalog-sidebar-sort` Sidebar sort by area
 
-3. Edit the template however you'd like. Please note that the mPDF renderer is not as smart as a modern web browser. It only supports CSS 2.1 specifications, so it may not recognize all the CSS you're used to using. The TCPDF renderer is even tougher to work with.
+`.ewd-upcp-catalog-sidebar-search` Sidebar search area
 
-4. Upload the edited template file to your theme directory under a new `/ebfrtb-templates/` directory. This will likely look like `/wp-content/themes/your-theme/ebfrtb-templates/mpdf.php`.
+`.ewd-upcp-catalog-sidebar-price-filter` Sidebar price slider
 
-Once the template has been uploaded to your theme, the plugin will automatically use your template instead of the default one.
+`.ewd-upcp-catalog-sidebar-categories` Sidebar categories area
 
-{% include faq/support.md %}
+`.ewd-upcp-catalog-sidebar-subcategories` Sidebar sub-categories area
 
-{% include faq/refund.md %}
+`.ewd-upcp-catalog-sidebar-tags` Sidebar tags area
+
+`.ewd-upcp-catalog-sidebar-custom-fields` Sidebar custom fields area
+
+`.ewd-upcp-catalog-sidebar-custom-field-div` Sidebar individual custom field
+
+`.ewd-upcp-catalog-display` Main catalog area container
+
+`.ewd-upcp-catalog-product-thumbnail` Main thumbnail container
+
+`.ewd-upcp-catalog-product-thumbnail-image-div` Thumbnail image
+
+`.ewd-upcp-catalog-product-thumbnail-body-div` Thumbnail body
+
+`.ewd-upcp-list-view` Main list view container
+
+`.ewd-upcp-catalog-product-list` List view product container
+
+`.ewd-upcp-catalog-product-list .ewd-upcp-product-title-div` List view title area
+
+`.ewd-upcp-catalog-product-list .ewd-upcp-catalog-product-price` List view price area
+
+`.ewd-upcp-detail-view` Main detail view container
+
+`.ewd-upcp-catalog-product-detail` Detail view product container
+
+`.ewd-upcp-catalog-product-detail-image-div` Detail view image area
+
+`.ewd-upcp-catalog-product-detail-mid-div` Detail view content area
+
+`.ewd-upcp-catalog-product-detail-end-div` Detail view price area
+
+`.ewd-upcp-product-comparison-button` Comparion button
+
+`.ewd-upcp-sale-price` Sale button
+
+`.ewd-upcp-pagination` Pagination controls
+
+`.pagination-links` Individual pagination button

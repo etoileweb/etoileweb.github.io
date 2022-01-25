@@ -1,9 +1,11 @@
-title: Five Star Restaurant Reviews
-base: plugins/good-reviews-wp
+title: Order Tracking
+base: plugins/order-tracking
 
 docs:
   - title: User Guide
     page: user
+  - title: Developer Documentation
+    page: developer
 
 user:
   - title: Getting Started
@@ -12,21 +14,220 @@ user:
     items:
     - title: Install Plugin
       page: user/getting-started/install
-    - title: Add your Reviews
-      page: user/getting-started/add
-    - title: Display your Reviews
-      page: user/getting-started/display
+
+    - title: Walk-Through
+      page: user/getting-started/setup
+
+  - title: Orders
+    page: user/orders
+    flags: orders
+    items:
+    - title: Create an Order
+      page: user/orders/create
+
+    - title: Add Tracking Form to a Page
+      page: user/orders/add-tracking-form-to-page
+
+    - title: Statuses
+      page: user/orders/statuses
+
+    - title: Locations
+      page: user/orders/locations
+
+    - title: Export Orders
+      page: user/orders/export
+
+    - title: Import Orders
+      page: user/orders/import
+
+  - title: Blocks and Shortcodes 
+    page: user/blocks-shortcodes
+    flags: blocks-shortcodes
+    items:
+    - title: Tracking Form Block
+      page: user/blocks-shortcodes/tracking-form-block
+
+    - title: Customer Form Block
+      page: user/blocks-shortcodes/customer-form-block
+
+    - title: Sales Rep Form Block
+      page: user/blocks-shortcodes/sales-rep-form-block
+
+    - title: Customer Order Form Block
+      page: user/blocks-shortcodes/customer-order-form-block
+
+    - title: tracking-form Shortcode
+      page: user/blocks-shortcodes/tracking-form-shortcode
+
+    - title: customer-form Shortcode
+      page: user/blocks-shortcodes/customer-form-shortcode
+
+    - title: sales-rep-form Shortcode
+      page: user/blocks-shortcodes/sales-rep-form-shortcode
+
+    - title: customer-order Shortcode
+      page: user/blocks-shortcodes/customer-order-shortcode
+
+  - title: Premium Version 
+    page: user/premium
+    flags: premium
+    items:
+    - title: Benefits of Premium
+      page: user/premium/benefits
+
+    - title: How to Purchase
+      page: user/premium/purchase
+
+    - title: Activate Premium
+      page: user/premium/activate
+
+    - title: Free 7-Day Trial
+      page: user/premium/trial      
+
+  - title: Customers
+    page: user/customers
+    flags: customers
+    items:
+    - title: Create a Customer
+      page: user/customers/create
+
+    - title: Customer Tracking Form
+      page: user/customers/tracking-form
+
+    - title: Associate Customer with WordPress User
+      page: user/customers/wordpress-user
+
+    - title: Customer Order Form
+      page: user/customers/customer-order-form
+
+  - title: Sales Reps
+    page: user/sales-reps
+    flags: sales-reps
+    items:
+    - title: Create a Sales Rep
+      page: user/sales-reps/create
+
+    - title: Sales Rep Tracking Form
+      page: user/sales-reps/tracking-form
+
+    - title: Associate Sales Rep with WordPress User
+      page: user/sales-reps/wordpress-user
+
+  - title: Custom Fields 
+    page: user/custom-fields
+    flags: custom-fields
+    items:
+    - title: Create and Edit
+      page: user/custom-fields/create
+
+    - title: Use with Orders
+      page: user/custom-fields/orders
+
+  - title: WooCommerce Integration 
+    page: user/woocommerce
+    flags: woocommerce
+    items:
+    - title: Enable
+      page: user/woocommerce/index
+
+    - title: Settings
+      page: user/woocommerce/settings
+
+    - title: Troubleshooting
+      page: user/woocommerce/faq
+
+  - title: Emails
+    page: user/emails
+    flags: emails
+    items:
+    - title: Create Emails
+      page: user/emails/create
+
+    - title: Ultimate WP Mail
+      page: user/emails/ultimate-wp-mail
+
+    - title: Email Notifications
+      page: user/emails/notifications
+
+  - title: Settings
+    page: user/settings
+    flags: settings
+    items:
+    - title: Basic Settings
+      page: user/settings/basic
+
+    - title: Premium Settings
+      page: user/settings/premium
+
+    - title: Payment
+      page: user/settings/payment
+
+    - title: Zendesk
+      page: user/settings/zendesk
+
+  - title: Styling
+    page: user/styling
+    flags: styling
+    items:
+    - title: Styling Options
+      page: user/styling/index
+
+    - title: Custom CSS
+      page: user/styling/css
+
+  - title: Labelling and Translation
+    page: user/labelling
+    flags: labelling
+    items:
+    - title: Labelling Options
+      page: user/labelling/index
+
+    - title: Translating
+      page: user/labelling/translating
+
+    - title: Poedit
+      page: user/labelling/poedit
+
+  - title: Support
+    page: user/support
+    flags: support
+    items:
+    - title: YouTube Tutorials
+      page: user/support/youtube
+
+    - title: Contact Us
+      page: user/support/contact
+
   - title: FAQ
     page: user/faq
     flags: faq
     items:
-    - title: Is there a shortcode to print all of my reviews?
+    - title: Is there a shortcode to display the tracking form?
       page: user/faq#shortcode
-    - title: Can users submit reviews with this plugin?
-      page: user/faq#user-submit
-    - title: Can I customize the output of the reviews?
-      page: user/faq#customize-output
-    - title: Is there a template function I can use to print reviews?
-      page: user/faq#template-function
+
+    - title: Is there a Gutenberg block to display the tracking form?
+      page: user/faq#block
+
+    - title: How do I add a map to the tracking page?
+      page: user/faq#google-map
+
+    - title: Can Sales Reps manage and create their own orders?
+      page: user/faq#sales-reps
+
+    - title: Is it possible for my customer to view their orders without entering the ID?
+      page: user/faq#customer
+
+    - title: Is this compatible with WPML?
+      page: user/faq#wpml
+
+    - title: Can I add extra fields to my orders?
+      page: user/faq#custom-fields
+
+    - title: Do you offer a free trial of the premium version?
+      page: user/faq#trial
+
     - title: How do I contact support?
       page: user/faq#support
+
+    - title: What is your refund policy?
+      page: user/faq#refund

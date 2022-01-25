@@ -2,39 +2,33 @@
 layout: default
 slug: ultimate-product-catalog
 menu: developer
+plugin_title: Ultimate Product Catalog
 title: Ultimate Product Catalog Developer Documentation
 ---
-The developer documentation is for coders who want to learn how to extend the plugin with the available filters, hooks and code snippets.
+The developer documentation is for coders who want to learn how to modify or extend the plugin with the available template system<!--, filters and hooks-->.
 
 *If you're not a coder, you're probably looking for the [User Guide](../user).*
 
----
+## Templates
 
-Ultimate Product Catalog comes with several filters and hooks to make it more extensible for developers.
+Starting with version 5.0.0 of {{ page.plugin_title }}, everything that displays on the front end of the plugin can be customized by creating your own template files (to modify and/or overwrite the existing templates files), which can be done as per the following: 
 
-## Filters
+1. To get started, you should have FTP access to your server (in the screenshots below, we’re using Cyberduck), so that you can download and upload files to your WordPress installation. Navigate to the templates folder for the plugin that you’re editing. For {{ page.plugin_title }}, you would click on **wp-content** > **plugins** > **ultimate-product-catalogue** > **ewd-upcp-templates**.
 
-These are the available filters. You could, for example, use these in your theme's functions.php file to extend the functionality of the plugin.
+2. Next, find the template that you want to edit. In our case, we’re going to add the label **Category:** before the category headings on the catalog page. To do this, we’ll download the **catalog-category-header** template to our desktop.
 
-- `rtb_party_size_upper_limit` => Set the upper limit for the party size dropdown box on the settings page
-- `rtb-max-reservations-upper-limit` => Set the upper limit for the maximum reservations dropdown box on the settings page (default 100)
-- `rtb-max-people-upper-limit` => Set the upper limit for the maximum people dropdown box on the settings page (default 100)
-- `rtb-auto-confirm-reservations-upper-limit` => Set the upper limit for the auto-confirm reservations dropdown box on the settings page (default 100)
-- `rtb-auto-confirm-seats-upper-limit` => Set the upper limit for the autoiconfirm seats dropdown box on the settings page (default 400)
-- `rtb_booking_submit_success_redirect` => Manipulate the redirect after a successful booking. For example, you could use a different redirect URL for different times of the day. It receives three parameters and returns a URL. [Example](https://gist.github.com/fivestarplugins/9ad9de6c844076f00aedbe98a870bd16).
+    ![Screenshot of Cyberduck](/img/{{ page.slug }}/upcp-developer-templates-1.png)
 
-## Code Snippets
+3. Open up the file that you downloaded. You should see the HTML div that contains the structure, along with where the label is being added. We’ll add in our changes and then save that file.
 
-These are the available code snippets:
+    ![Screenshot of modified template code](/img/{{ page.slug }}/upcp-developer-templates-2.png)
 
-- The `$fields` array you can use to [customize the form output](https://github.com/NateWr/ultimate-product-catalog/blob/master/includes/Settings.class.php#L727-L834).
-- [Override the From email address used in booking notification emails](https://gist.github.com/NateWr/fbbe6f0eafa7359de161)
-- [Hide the time field in the booking form. Requires PHP 5.3+](https://gist.github.com/NateWr/9068c5d12ef458eb40ca)
-- [Remove the party field from your booking form.](https://gist.github.com/NateWr/b015b059bba49bea67fb)
-- [Automatically scroll to the booking form after a submission is made](https://gist.github.com/NateWr/79891d113284d486b4d6)
-- [Allow anyone with the `edit_pages` capability to manage the settings](https://gist.github.com/NateWr/a9bad4c46b899ed308a3)
-- [Add a notification tag that pulls the address and directions link from Business Profile](https://gist.github.com/NateWr/3b190da01cd3746fa583)
+4. Now we need to add that file to our server. Navigate to the child theme you’re using, or your active theme if you’re not using a child theme, and create a folder with the same name as the templates folder in the plugin, so **ewd-upcp-templates** in our case.
 
-### Code Snippets for Addons
+5. Upload the file you edited to that folder. The plugin will automatically use any templates with the same names found in your active theme’s folder. Once you’ve done that, you should see the modified label on the catalog page.
 
-- [Change the delimiter used when generating CSV files](https://gist.github.com/NateWr/f5476a0e6a62e7457929)
+    ![Screenshot of modified FAQ page output](/img/{{ page.slug }}/upcp-developer-templates-3.png)
+
+That’s all it takes to edit or change any of the content displayed on the front end by {{ page.plugin_title }}!
+
+

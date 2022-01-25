@@ -2,8 +2,17 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Export Bookings 
+title: WooCommerce Integration 
 ---
-[Export Bookings](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/export-bookings/) is a commercial addon for [Ultimate Product Catalog](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/) which allows you to export your bookings to PDF or Excel/CSV files.
+The premium version of the Ultimate Product Catalog plugin comes with the ability to sync your products with WooCommerce. This allows you to use the catalog as your main shop page while also using WooCommerce's checkout features, giving you the best of both worlds. 
 
-If you've purchashed the addon, you can get advice on [how to install and activate it](install) or view the [frequently asked questions](faq).
+You get a catalog with advanced filtering, so people can quickly find exactly what they're looking for, and then the safe cart and checkout features that you already know and trust.
+
+To learn more about how to use the included WooCommerce features, please see:
+
+- [WooCommerce Sync](sync)
+- [WooCommerce Checkout](checkout)
+- [WooCommerce Product Page](product-page)
+- [WooCommerce FAQ](faq)
+
+

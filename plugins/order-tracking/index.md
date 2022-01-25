@@ -1,11 +1,15 @@
 ---
 layout: default
-slug: good-reviews-wp
+slug: order-tracking
 menu: user
-title: Five Star Restaurant Reviews Documentation
+title: Order Tracking Documentation
 ---
-This documentation will help you use [Five Star Restaurant Reviews](https://wordpress.org/plugins/good-reviews-wp), a WordPress plugin to show your best reviews and testimonials in search-engine-friendly market.
+This user guide and developer documentation will help you use [Order Tracking](https://wordpress.org/plugins/order-tracking/), a plugin for implementing a full-featured order tracking system on your WordPress website.
 
-The plugin is free to download and use on any website built with WordPress.
+The following help is divided into two sections, depending on your needs.
 
-For help learning how to install the plugin, add your reviews and display them on your website, visit the [User Guide](user).
+## User Guide ##
+For help learning how to install the plugin, add orders and tracking to your site, and how to use all the available features, visit the [User Guide](user).
+
+## Developer Documentation ##
+For programmers interested in learning how to modify or extend the plugin with the available template system, <!--filters and hooks, -->visit the [Developer Documentation](developer).

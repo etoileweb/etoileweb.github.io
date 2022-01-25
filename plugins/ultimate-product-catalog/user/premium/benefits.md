@@ -2,24 +2,27 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Connect to MailChimp
+title: Benefits of the Premium Version
 ---
-Once you've installed and activated the addon, a new tab will appear in your WordPress admin area at **Bookings > Settings > MailChimp**.
+The premium version of the Ultimate Product Catalog plugin includes a large number of features, such as the ability to add over 100 products, additional product images, custom fields for sorting within your product catalog, custom product pages, a product inquiry cart, multiple layout options, product import/export and more!
 
-![Screenshot of the MailChimp api key prompt](/img/{{ page.slug }}/mailchimp-api-key.png)
+Premium features include:
 
-Before you can use the plugin, you need to connect to your MailChimp account. The link provided will help you create an API key for your MailChimp account that you can use here.
+- Add more than 100 products.
+- WooCommerce integration, including product sync, checkout and more. See [here](../woocommerce) for more info.
+- Custom fields that can be added to your product catalog and used to include product manuals, additional information, etc., and for product filtering. See [here](../custom-fields) for more info.
+- Product Comparison: Allow people to select multiple products in your catalog to view and compare side by side.
+- Drag-and-drop and ultra-responsive tabbed and shop style product page layouts.
+- Two extra product catalog styles: minimalist and block/hover.
+- Choose between checkbox, radio button, dropdown and slider for the front-end control type for your custom field.
+- Choose between checkbox, radio button and dropdown for the front-end control type for your categories, sub-categories and tags.
+- Product inquiry form (you can choose to have the form automatically created using either WPForms or Contact Form 7).
+- Product inquiry cart: Allow people to add multiple products to an inquiry cart and then send one global inquiry about/for all those products.
+- Product reviews (using Ultimate Reviews)
+- Add FAQs (frequently asked questions) to your products. Uses the Ultimate FAQs plugin.
+- Display product ratings on main catalog pages.
+- Additional images and videos for better product catalog display and product management.
+- SEO By Yoast Integration for your product catalogs.
+- Dedicated styling options.
+- Labelling optinos that can be used to change the wording of or translate the labels in the plugin.
 
-Once you've successfully connected your API key, you'll see the full configuration options for this addon.
-
-![Screenshot of the MailChimp addon settings page](/img/{{ page.slug }}/mailchimp-settings.png)
-
-## Select the subscribe list
-
-Select which one of your MailChimp mailing lists you'd like to subscribe customers to when they make a booking. *You'll need to have at least one list set up in MailChimp first.*
-
-Once you've selected a list, you'll be prompted with a list of Booking Form Data that you need to connect to fields in your MailChimp mailing list.
-
-By default, MailChimp mailing lists often only come with a First Name and Last Name field, so you may need to configure more [merge fields](http://kb.mailchimp.com/article/getting-started-with-merge-tags) to collect all the data from the booking form.
-
-*You can connect any information from you booking form, including [custom fields](../custom-fields). But you don't need to connect the email address. That will be done automatically.*

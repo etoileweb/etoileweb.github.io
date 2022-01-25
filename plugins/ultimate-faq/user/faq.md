@@ -1,108 +1,51 @@
 ---
 layout: default
-slug: food-and-drink-menu
+slug: ultimate-faq
 menu: user
-title: Frequently Asked Questions (FAQ)
+title: Frequently Asked Questions
 ---
 Quick answers to your most common questions. Anything missing? [Let us know](https://www.etoilewebdesign.com/support-center/).
 
-## <a name="menu-item-order"></a> How do I change the order of items on my menu?
+## <a name="shortcode"></a>Is there a shortcode to display FAQs?
 
-When [editing a Menu Item](getting-started/create-menu#create-menu-item), you'll see a panel on the right-hand side which has an **Order** input field. Menu Items are listed in order of this value, from lowest to highest.
+Yes, you can use the `[ultimate-faqs]` shortcode. For more info, see [here](blocks-shortcodes/ultimate-faqs-shortcode).
 
-If you want one Menu Item to be listed after another, make sure it's **Order** value is higher.
+## <a name="block"></a>Is there a Gutenberg block to display FAQs?
 
-*This can get cumbersome for large menus. Check out the [Simple Page Ordering](https://wordpress.org/plugins/simple-page-ordering/) plugin for an easy way to order items by dragging and dropping them right from the list of **Menu Items**.*
+Yes, you can search for the **Display FAQs** block. Alternatively, you'll find it in its own block category/section called **Ultimate FAQs**. For more info, see [here](blocks-shortcodes/display-faqs-block).
 
-## <a name="multiple-prices"></a> How do I show multiple prices?
+## <a name="multiple-faq-pages"></a>Can I have multiple FAQ pages with different FAQs on each?
 
-Version 1.5 of the plugin adds support for setting multiple prices. If you don't see an option to add a price for a Menu Item, please make sure you've upgraded to the latest version.
+Yes. For this, we would recommend assigning your FAQs to different categories and then using the shortcode to include only the category you want on each page. For more info, see [here](blocks-shortcodes/ultimate-faqs-shortcode).
 
-Additionally, the [premium version](https://www.etoilewebdesign.com/plugins/five-star-restaurant-menu/) supports a discounted price.
+## <a name="sort-order"></a>How do I sort the order of my FAQs?
 
-## <a name="columns-collapsed"></a> I have a two-column menu but it displays in one column.
+The FAQs can be sorted by title, created date or modified date. The FAQ categories can be sorted by name, slug or count. If you are using the premium version, there is also a drag-and-drop table that can be used for precise ordering. For more info, see [here](faqs/order).
 
-The plugin tries hard to be compatible with as many themes as possible. But in some cases a theme will add extra spacing that prevents the columns from displaying side-by-side.
+## <a name="translate"></a>Can I translate my FAQs?
 
-In such cases, you'll need to reach out to the developer of your theme for help resolving the issue. It should be a quick snippet of CSS that solves the problem.
+Yes, the plugin uses a custom post type and all the strings/labels are localized in the code. For more information on plugin translation, please see [here](labelling/translating).
 
-Unfortunately, there isn't any one snippet of CSS code that works across the board. If there was, *I'd add it to the plugin*.
+## <a name="wpml"></a>Is this compatible with WPML?
 
-## <a name="section-description"></a> How can I show that a collection of dishes come with a side?
+Yes, the plugin uses a custom post type and taxonomies. As such, if you enable our post type in the WPML settings, you'll be able to create translations of your FAQs, categories and tags. As well, all the strings/labels are localized in the code. As such, they will be picked up by WPML's String Translation tool for easy direct translating. 
 
-Each **Menu Section** can have a description. When available, it displays below the section title.
+For more info on translating the plugin, please see [here](labelling/translating).
 
-To add a description to a section, go to the **Menu Items > Menu Sections** page in your WordPress admin area. Click the **Edit** link below the section you'd like to change.
+## <a name="custom-fields"></a>Can I add extra fields to my FAQs?
 
-On the Edit screen, you'll see an area to type in a description. This is a great place to put in details such as:
+Yes, the premium version of the plugin includes the **Fields** feature, which lets you add custom fields to your FAQs. For more info, see [here](custom-fields).
 
-- All entrees come with a side salad or fries.
-- Add cheese to any burger for $1. Add bacon for $2.
-- Add fries and a coke to any order during lunchtime for just $10.
+## <a name="single-ufaq"></a>The individual FAQ page isn't displaying correctly
 
-## <a name="duplicate-section-names"></a> Can I have different sections with the same name?
+For the FAQ single post pages, it would be your theme that controls the look and layout. Because the FAQs are a custom post type, the single post page for FAQ posts would, by default, make use of your theme's single.php template file. If you'd like to modify the single post page for FAQs, we'd suggest duplicating your single.php file and creating one specifically for our post type, as discussed [here](https://codex.wordpress.org/Post_Type_Templates). Our post type is called **ufaq**, so you'd want to call your template file **single-ufaq.php**.
 
-Yes. It's common for a restaurant to have two locations. Each location's menu has a Starters section, but they might not have exactly the same Starters in each location. They need different sections with the same name.
+## <a name="trial"></a> Do you offer a free trial of the premium version?
 
-You'll soon learn that you can't create two Menu Sections with the same name. To get around this, you'll need to create your Menu Sections with unique names, like "Starters (Downtown)" and "Starters (Uptown)".
-
-You can then override these names when you adding the Menu Section to a Menu. To do this, click the Edit icon in the Menu Layout panel for the Menu Section.
-
-![Screenshot of the Menu Section editing link](/img/{{ page.slug }}/menu-section-name-edit.png)
-
-You can then enter your preferred Menu Section name.
-
-![Screenshot of the Menu Section editing panel](/img/{{ page.slug }}/menu-section-name-panel.png)
-
-This name only applies to this Menu, so different Menus can each have sections with the same name.
-
-## <a name="customize"></a> Can I customize the look and layout of my menu?
-
-The plugin comes with a base style, which inherits the look of your theme, as well as a classic style. You can [learn more about these settings](advanced/settings).
-
-Since version 1.5 of this plugin,  you can also make use of your theme's [page templates](advanced/page-templates).
-
-If you want to make more bespoke customizations to the design and style of your menu, you may need to know CSS code and how to modify PHP templates. You can [read some simple tutorials](advanced/complex-layouts) or take a look at the [developer documentation](../developer).
-
-## <a name="footer"></a> How can I indicate that we add a gratuity?
-
-Each **Menu** has an additional editor for the **Menu Footer**. You'll see this when [editing a menu](getting-started/create-menu#create-menu).
-
-The Menu Footer is a great place to add details such as:
-
-- All parties of 6 or more will automatically be charged a gratuity of 10%.
-- All dishes are cooked in a kitchen with nuts.
-- All of our meat is free-range and sourced from local producers.
-
-## <a name="menu-icons"></a> I need to mark some dishes as vegetarian, spicy or similar?
-
-The [premium version](pro) features a wide range of icons covering dietary needs, healthy choices and religious preferences. Learn more about the [menu icons](pro/menu-icons).
-
-
-## <a name="wpml"></a> Is this compatible with WPML?
-
-This plugin includes a `wpml-config.xml` file which provides compatibility with the WPML multi-language plugin.
-
-Although Five Star Restaurant Menu is compatible with WPML, I'm not personally very familiar with the multi-language plugin and so may not be able to provide very helpful support if you run into any problems or find the editing process confusing.
-
-## <a name="image-sizes"></a> I changed the size of my Menu Item photos, but the image is still the old size.
-
-After changing the size of photos under **Menus > Settings**, you may need to regenerate your thumbnails. WordPress generates photo sizes when you first upload the image, so any images you've already uploaded will have the old image size.
-
-I recommend you use the plugin <a href="https://wordpress.org/plugins/regenerate-thumbnails/">Regenerate Thumbnails</a>. It will provide you with a handy tool in your WordPress admin area to regenerate thumbnails for all of your images.
-
-If you've regenerated thumbnails but still don't see any changes, this may be due to confusion between two different kinds of image "sizes". When WordPress delivers the menu to your web browser, it loads an image of a particular size. But depending on the width of your screen and the width of the menu on your screen, the actual display width will vary.
-
-Regenerating thumbnails and changing the image size in the settings will change the size of the image file that's loaded into your browser. But it won't change the width of the image as it displays on your screen.
-
-By default, the plugin sets the display size to 25% of the menu item width, and the actual size of its appearance depends on the width of the overall menu. If you want to change the display width of the image in your menu, you'll need to use some CSS code.
+Yes, we do! For info on how to activate the free trial, please see [here](premium/trial).
 
 ## <a name="support"></a> How do I contact support?
 
-I provide the best support for the free plugin that I'm able to provide for free. But there is only so much I'm able to do while keeping my business sustainable. Still, I'd encourage you to [post your support request on the official forums](http://wordpress.org/support/plugin/food-and-drink-menu) and I'll help out as best I can.
-
-If you have purchased the [premium version](pro), please reach out to ous via the [support form on our website](https://www.etoilewebdesign.com/support-center/).
+For more info on contacting support, please see [here](support/contact).
 
 {% include faq/refund.md %}
-
-{% include faq/more-help.md %}

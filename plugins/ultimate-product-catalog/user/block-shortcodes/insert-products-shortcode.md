@@ -8,8 +8,6 @@ The plugin comes with a separate shortcode that lets you insert products on any 
 
 `[insert-products catalogue_url="https://www.your-site.com/catalog-page/" product_count="4" catalogue_id="123"]`
 
-![Gif of adding the shortcode](/img/{{ page.slug }}/upcp-add-product-catalog-shortcode.gif)
-
 ## Attributes
 
 The insert-products shortcode takes the following attributes:

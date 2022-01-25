@@ -6,100 +6,54 @@ title: Frequently Asked Questions
 ---
 Quick answers to your most common questions. Anything missing? [Let us know](https://www.etoilewebdesign.com/support-center/).
 
-## <a name="shortcode"></a>Is there a shortcode to print the booking form?
+## <a name="shortcode"></a>Is there a shortcode to display the catalog?
 
-Yes, use the `[booking-form]` shortcode.
+Yes, you can use the `[product-catalog]` shortcode. For more info, see [here](block-shortcodes/product-catalog-shortcode).
 
-## <a name="date-time-format"></a>Can I change the format of the date or time?
+## <a name="block"></a>Is there a Gutenberg block to display the catalog?
 
-Yes, set the format for the datepicker in **Bookings > Settings**. The format used in the backend will depend on the date and time formats in your WordPress settings.
+Yes, you can search for the **Display Product Catalog** block. Alternatively, you'll find it in its own block category/section called **Ultimate Product Catalog**. For more info, see [here](block-shortcodes/display-catalog-block).
 
-## <a name="no-datepicker"></a>The datepicker or timepicker is not working.
+## <a name="starting-layout"></a>Can I change the default layout of the catalog?
 
-If you load up the form and no date or time picker is popping up when you select those fields, this is likely caused by a Javascript error from another plugin or theme.
+Yes, you can use the `starting_layout` shortcode attribute for this. For more info see [here](block-shortcodes/product-catalog-shortcode). If you're using the block, there is a dropdown to select the starting layout. For more info, see [here](block-shortcodes/display-catalog-block).
 
-You can find the problematic plugin by deactivating other plugins you're using one-by-one. Test after each deactivation to see if the date and time pickers work.
+## <a name="excluded-layouts"></a>Can I remove layouts from the catalog?
 
-If you have deactivated all other plugins and still have a problem, try switching to a default theme (like TwentyFifteen).
+Yes, you can use the `excluded_layouts` shortcode attribute for this. For more info see [here](block-shortcodes/product-catalog-shortcode). If you're using the block, there is a field to enter the layouts you want to exclude. For more info, see [here](block-shortcodes/display-catalog-block).
 
-## <a name="no-emails"></a>I'm not receiving notification emails for new bookings.
+## <a name="sidebar"></a>Can I remove the sidebar from my catalog page?
 
-This is almost always the result of issues with your server and can be caused by a number of things. Before posting a support request, please run through the following checklist:
+Yes, you can use the `sidebar` shortcode attribute for this. For more info see [here](block-shortcodes/product-catalog-shortcode). If you're using the block, there is a dropdown to select whether or not you want to display the sidebar. For more info, see [here](block-shortcodes/display-catalog-block).
 
-1. Double-check that the notification email in **Bookings > Settings > Notifications** is correct.
-2. Make sure that WordPress is able to send emails. The admin email address in the WordPress settings page should receive notifications of new users.
-3. If you're not able to receive regular WordPress emails, contact your web host and ask them for help sorting it out.
-4. If you're able to receive regular WordPress emails but not booking notifications, check your spam filters or junk mail folders.
+## <a name="sort-order"></a>How do I sort the order of the products in my catalog?
 
-If you still haven't found the emails, you may be getting blocked by spam filters on your email server or on the recipient's email server. There are many things that can cause this. The most common are:
+The default order of the items in the catalog can be set directly on the catalog edit screen. For more info, see [here](catalogs/order). For the categories and products within specific categories, the order is modified in the **Categories** area of the admin. For more info, see [here](products/categories#order-of-categories-and-products-in-a-category).
 
-1. Your email server has a bad reputation.
-2. The content of your emails is causing some recipient servers to flag them as spam.
-3. Conflicts with your email server configuration are causing your emails to look suspicious.
+## <a name="translate"></a>Can I translate my products and catalogs?
 
-You’ll need to explore this issue further with your web host. If you contact them with the date and time of an email that should have been received but wasn’t, they should be able to look at their email logs to see if an email was sent. If it was, but it was blocked by the recipient server, they’ll often receive a return notice with more details about why it was blocked.
-
-If you or your web host would like more technical details about how the plugin configures the email headers, you can find some details in [this support request](https://wordpress.org/support/topic/e-mails-not-being-send/#post-7562496).
-
-If your web host is not able or willing to resolve the problem, or you'd like to explore more reliable email delivery, read [how I use Postmark to make sure emails are delivered every time](https://www.etoilewebdesign.com/2016/05/24/make-sure-restaurant-emails-delivered-every-time/).
-
-### <a name="no-emails-from-header"></a>Changing the FROM header
-
-If your web host advises you that the FROM header of the emails is causing a problem, you can change this at **Bookings > Settings > Notifications > Advanced**. The FROM header must match an email address that your email server has permission to send email as.
-
-When configured incorrectly, **all of your emails may stop being sent**. If you're not sure, ask your web host which email address you should use.
-
-## <a name="required-phone-number"></a>Can I make the phone number required?
-
-Yes, you can make the phone number required by changing the **Require Phone** setting under **Bookings > Settings**.
-
-## <a name="translate"></a>Can I translate the booking form?
-Yes, everything in this plugin can be translated using the standard translation process and software like PoEdit.
-
-If you're not familiar with that process, I'd recommend you take a look at the [Loco Translate](https://wordpress.org/plugins/loco-translate/) plugin, which provides a simple interface in your WordPress admin area for translating themes and plugins.
-
-*If you make a translation, please help others out by adding it to the [GitHub repository](https://github.com/NateWr/ultimate-product-catalog) so that I can distribute it for others.*
-
-## <a name="early-late-restrictions"></a>I set Early or Late Bookings restrictions, but I scan still book during that time
-Users with the Administrator and Booking Manager roles are exempt from these restrictions. This is so that they can make last-minute changes to bookings as needed. If you want to test the Early or Late Bookings restrictions, try submitting a reservation while logged out from the site.
-
-## <a name="custom-fields"></a>I want to add a field to the form. Can I do that?
-The [Custom Fields addon](https://www.etoilewebdesign.com/plugin/custom-fields-ultimate-product-catalog)  will allow you to add a field or modify some of the existing fields of the booking form.
-
-Developers who are comfortable coding up plugins for WordPress can add their own fields using the hooks provided. See the [developer documentation](../developer).
-
-## <a name="gdpr"></a>Is this plugin compliant with GDPR?
-
-This plugin includes a couple of features to help your website comply with GDPR, the European privacy laws that came into effect in 2018.
-
-First, you can add a confirmation field to the booking form that requires customers to consent to the collection of their data. You can configure this confirmation field under the **Bookings > Settings > General > Privacy** section in your WordPress admin area.
-
-Second, you can delete all bookings related to a single email address. To do this, find the **Submitted By** column in the Bookings list. Click the **Delete Customer** link there to delete booking information related to that email address. You will _not_ be able to undo this.
-
-GDPR gives customers the right to request you delete all information about them. Using this feature will remove all booking data related to that email address from your WordPress database. If you are using the [MailChimp addon](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/mailchimp/), you will also need to remove their email address from any mailing list you have there.
+Yes, the plugin uses custom post types and all the strings/labels are localized in the code. For more information on plugin translation, please see [here](labelling/translating).
 
 ## <a name="wpml"></a>Is this compatible with WPML?
 
-The plugin comes with a `wpml-config.xml` file that improves compatibility with [WPML](https://wpml.org/) for multi-lingual websites. However, there are some limitations.
+Yes, the plugin uses custom post types. As such, if you enable our post types in the WPML settings, you'll be able to create translations of your products (and categories, sub-categories, tags, etc.) and catalogs. As well, all the strings/labels are localized in the code. As such, they will be picked up by WPML's String Translation tool for easy direct translating. 
 
-WPML works by checking the current locale and adjusting things on-the-fly. When an administrator or booking manager approves or rejects a message, WordPress is run in whatever language they're using.
+For more info on translating the plugin, please see [here](labelling/translating).
 
-For that reason, the subsequent notification emails are sent out in the administrator's or booking manager's language -- not the language used in the original booking request.
+## <a name="custom-fields"></a>Can I add extra fields to my products?
 
-I usually recommend that people just make their notificaton emails multi-language, by including text for both languages into every email.
+Yes, the premium version of the plugin includes the powerful custom fields feature, which lets you add extra fields to your products and also use them for filtering. For more info, see [here](custom-fields).
 
-## <a name="qtranslate"></a>The date or time of a booking is incorrect in emails, and I'm using qTranslate.
+## <a name="custom-fields-not-displaying"></a>My custom fields are not displaying
 
-If you are using qTranslate, you may experience problems with the date and time that appears in booking notification emails. You can fix this by changing a setting in qTranslate.
+Go to **Settings > Basic** and, for the **Extra Elements** option, make sure you have **Custom Fields** selected.
 
-In the qTranslate settings, go to **Advanced Settings > Conversion Date/Time** and make sure that **Use strftime** is selected.
+## <a name="trial"></a> Do you offer a free trial of the premium version?
+
+Yes, we do! For info on how to activate the free trial, please see [here](premium/trial).
 
 ## <a name="support"></a> How do I contact support?
 
-I provide the best support for the free plugin that I'm able to provide for free. But there is only so much I'm able to do while keeping my business sustainable. Still, I'd encourage you to [post your support request on the official forums](http://wordpress.org/support/plugin/ultimate-product-catalog) and I'll help out as best I can.
-
-If you have purchased any of the commercial addons, please reach out to me via the [support form on my website](https://www.etoilewebdesign.com/support-center/).
+For more info on contacting support, please see [here](support/contact).
 
 {% include faq/refund.md %}
-
-{% include faq/more-help.md %}

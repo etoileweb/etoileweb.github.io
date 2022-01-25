@@ -1,15 +1,15 @@
 ---
 layout: default
-slug: food-and-drink-menu
+slug: ultimate-faq
 menu: user
-title: Five Star Restaurant Menu Documentation
+title: Ultimate FAQ Documentation
 ---
-This user guide and developer documentation will help you use [Five Star Restaurant Menu](https://wordpress.org/plugins/food-and-drink-menu/), a WordPress plugin for restaurant menus that is free to download and use on any website built with WordPress.
+This user guide and developer documentation will help you use [Ultimate FAQ](https://wordpress.org/plugins/ultimate-faq/), a plugin for creating and displaying FAQs on your WordPress website.
 
 The following help is divided into two sections, depending on your needs.
 
 ## User Guide ##
-For help learning how to install the plugin, create menus and display them on your website, visit the [User Guide](user).
+For help learning how to install the plugin, create and display FAQs on your site, and how to use all the available features, visit the [User Guide](user).
 
-## Developer Documentation (Archived) ##
-For programmers interested in writing custom code to extend, customize or augment the plugin's functionality, visit the [Developer Documentation](developer).
+## Developer Documentation ##
+For programmers interested in learning how to modify or extend the plugin with the available template system, <!--filters and hooks, -->visit the [Developer Documentation](developer).

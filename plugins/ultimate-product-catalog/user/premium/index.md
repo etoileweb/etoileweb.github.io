@@ -2,10 +2,10 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: MailChimp 
+title: Premium Version
 ---
-[MailChimp for Ultimate Product Catalog](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/mailchimp/) is a commercial addon for [Ultimate Product Catalog](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/) which allows you to subscribe customers booking tables to your [MailChimp](http://mailchimp.com) mailing list.
+The premium version of the Ultimate Product Catalog gives you full access to all the plugin features, including avanced product page layouts, custom fields, WooCommerce integration, styling options and much more. For more info on the benefits of the premium version, how to buy it and how to activate it, please see the sections below.
 
-In order to use this plugin, you'll need a [MailChimp](http://mailchimp.com) account.
-
-If you've purchashed the addon, you can get advice on [how to install and activate it](install), [connect to MailChimp](connect) or view the [frequently asked questions](faq).
+- [Benefits of Premium](benefits)
+- [How to Purchase](purchase)
+- [Activate Premium](activate)

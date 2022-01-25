@@ -1,11 +1,11 @@
 ---
 layout: default
-slug: business-profile
+slug: ultimate-reviews
 menu: user
 title: Install Plugin
-plugin_title: Business Profile
-plugin_url: https://wordpress.org/plugins/business-profile
+plugin_title: Ultimate Reviews
+plugin_url: https://www.etoilewebdesign.com/plugins/ultimate-reviews/
 ---
 {% include plugins/install.md %}
 
-Now that the plugin is installed and activated, you'll want to [set up your profile](setup).
+Now that you've installed the plugin, you'll want to run through the [walk-through](setup).

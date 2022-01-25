@@ -12,7 +12,7 @@ The walk-through consists of four steps.
 
 1. **Categories**: This lets you create one or more categories, which you can then assign your products to. 
 
-2. **Add an Ultimate Product Catalog Page**: This will create a new page on WordPress site and place your catalog on it.
+2. **Add an Ultimate Product Catalog Page**: This will create a new page on your WordPress site and place your catalog on it.
 
 3. **Set Key Options**: Here you can configure a few of the main options in the plugin, such as the currency symbol, catalog color and the product search feature.
 

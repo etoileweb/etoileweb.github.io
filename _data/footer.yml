@@ -2,14 +2,14 @@ plugins:
   - title: Ultimate Product Catalog
     page: ultimate-product-catalog
 
-  - title: Ultimate FAQs
-    page: food-and-drink-menu
+  - title: Ultimate FAQ
+    page: ultimate-faq
 
   - title: Ultimate Reviews
-    page: business-profile
+    page: ultimate-reviews
 
   - title: Order Tracking
-    page: good-reviews-wp
+    page: order-tracking
 
 themes:
   - title: Ultimate Showcase

@@ -1,3 +1,3 @@
-## <a name="refund"></a> Can I get a refund?
+## <a name="refund"></a> What is your refund policy?
 
-We offer a **_14-day money-back guarantee_** on all products. [Request a refund](https://www.etoilewebdesign.com/contact/).
+We offer a **_14-day money-back guarantee_** on all products. To request a refund please [contact us](support/contact).

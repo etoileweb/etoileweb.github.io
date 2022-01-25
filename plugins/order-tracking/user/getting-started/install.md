@@ -1,11 +1,11 @@
 ---
 layout: default
-slug: good-reviews-wp
+slug: order-tracking
 menu: user
 title: Install Plugin
-plugin_title: Five Star Restaurant Reviews
-plugin_url: https://wordpress.org/plugins/good-reviews-wp
+plugin_title: Order Tracking
+plugin_url: https://www.etoilewebdesign.com/plugins/order-tracking/
 ---
 {% include plugins/install.md %}
 
-Now that the plugin is installed and activated, you'll want to start [adding reviews](add).
+Now that you've installed the plugin, you'll want to run through the [walk-through](setup).

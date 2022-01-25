@@ -2,8 +2,11 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Export Bookings 
+plugin_title: Ultimate Product Catalog
+title: Labelling and Translation 
 ---
-[Export Bookings](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/export-bookings/) is a commercial addon for [Ultimate Product Catalog](https://www.etoilewebdesign.com/plugins/five-star-ultimate-product-catalog/) which allows you to export your bookings to PDF or Excel/CSV files.
+This premium version of this plugin comes with several labelling options, which can be accessed by navigating to **Settings > Labelling**.
 
-If you've purchashed the addon, you can get advice on [how to install and activate it](install) or view the [frequently asked questions](faq).
+You can use these to either specify different wording for the various labels found in the plugin or to change them into a different language. If your site is only in one language, this is a quick and easy way to translate the {{ page.plugin_title }} without the need to make use of third-party translation plugins.
+
+Additionally, all of the strings in the plugin are localized, so it can definitely be used with a translation plugin should your use case require that. For more on that, see [here](translating).

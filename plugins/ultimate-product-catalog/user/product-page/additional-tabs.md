@@ -2,34 +2,22 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Frequently Asked Questions
+title: Additional Tabs
 ---
-*The following frequently asked questions only cover the [Export Bookings](../export-bookings) addon.*
+If you are using either the Tabbed or Shop Style product page type, then you have the ability to create additional tabs.
 
-## <a name="corrupt-pdf-exports"></a>The PDF export doesn't work. It results in a blank screen, a broken download file or a bunch of gibberish.
+To do this, go to the **Product Page** screen and use the **Additional Tabs** section to specify the name and content of the new tab that you want to create.
 
-The default PDF renderer, mPDF, is not compatible with all servers. You can switch to a more widely compatible renderer by going to the **Bookings > Settings > Export** page in your WordPress admin area, and selecting the TCPDF renderer.
+![Gif of creating an additional tab](/img/{{ page.slug }}/upcp-additional-tabs.gif)
 
-In some rare cases, this may not be compatible as well. You may be able to get help by asking your web host, who can change the configuration of your server.
+## Dynamic Content
 
-I've worked hard to ensure as wide a compatibility as possible. But if you're unable to get it working, I'll happily [provide a refund](#refund).
+Whatever you write in either the name or content area will appear on all product pages. 
 
-## Can I customize the PDF template?
+However, it is also possible to add **dynamic** content that is specific to each product using **custom fields**. If you add the custom field slug as a shortcode, it will display the value for that product. 
 
-Yes. To customize the template, you'll need to be able to edit template files similar to how you might edit your theme's template files.
+So, for example, you could create a new tab that you use to include the corresponding PDF instruction manual for each product.
 
-Here are the complete steps:
+For more info on displaying custom field values via shortcode, see [here](../custom-fields/shortcodes).
 
-1. Determine which PDF renderer you are using. Go to **Bookings > Settings > Export** and look at the setting under PDF Renderer. It will be TCPDF or mPDF.
-
-2. Copy the appropriate matching `.php` file from your `/wp-content/plugins/export-bookings-for-rtb/templates/` directory. If you're using the mPDF renderer, copy the `mpdf.php` file.
-
-3. Edit the template however you'd like. Please note that the mPDF renderer is not as smart as a modern web browser. It only supports CSS 2.1 specifications, so it may not recognize all the CSS you're used to using. The TCPDF renderer is even tougher to work with.
-
-4. Upload the edited template file to your theme directory under a new `/ebfrtb-templates/` directory. This will likely look like `/wp-content/themes/your-theme/ebfrtb-templates/mpdf.php`.
-
-Once the template has been uploaded to your theme, the plugin will automatically use your template instead of the default one.
-
-{% include faq/support.md %}
-
-{% include faq/refund.md %}
+Make sure to click the **Update Tabs** button when you're done to save your changes.

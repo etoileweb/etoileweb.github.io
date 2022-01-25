@@ -2,34 +2,122 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Frequently Asked Questions
+title: Basic Settings
 ---
-*The following frequently asked questions only cover the [Export Bookings](../export-bookings) addon.*
+The following options are available by going to **Settings > Basic**
 
-## <a name="corrupt-pdf-exports"></a>The PDF export doesn't work. It results in a blank screen, a broken download file or a bunch of gibberish.
+### Currency Symbol
 
-The default PDF renderer, mPDF, is not compatible with all servers. You can switch to a more widely compatible renderer by going to the **Bookings > Settings > Export** page in your WordPress admin area, and selecting the TCPDF renderer.
+What currency symbol, if any, should be displayed with the price? Leave blank for none.
 
-In some rare cases, this may not be compatible as well. You may be able to get help by asking your web host, who can change the configuration of your server.
+### Currency Symbol Location
 
-I've worked hard to ensure as wide a compatibility as possible. But if you're unable to get it working, I'll happily [provide a refund](#refund).
+Should the currency symbol, if specified using the **Currency Symbol** option above, be displayed before or after the price?
 
-## Can I customize the PDF template?
+### Sale Mode
 
-Yes. To customize the template, you'll need to be able to edit template files similar to how you might edit your theme's template files.
+Should all products be put on sale ('All'), no products be on sale ('None'), or sale prices be shown only for selected products ('Individual')?
 
-Here are the complete steps:
+### Thumbnail Support
 
-1. Determine which PDF renderer you are using. Go to **Bookings > Settings > Export** and look at the setting under PDF Renderer. It will be TCPDF or mPDF.
+If available, should the thumbnail version of images be used on the main catalog pages? *This can be useful if you have many (large) images and want to help reduce page load time.*
 
-2. Copy the appropriate matching `.php` file from your `/wp-content/plugins/export-bookings-for-rtb/templates/` directory. If you're using the mPDF renderer, copy the `mpdf.php` file.
+### Maintain Filtering
 
-3. Edit the template however you'd like. Please note that the mPDF renderer is not as smart as a modern web browser. It only supports CSS 2.1 specifications, so it may not recognize all the CSS you're used to using. The TCPDF renderer is even tougher to work with.
+Should filtering be maintained when clicking the back button after viewing a product page? (May cause redirect issues if catalog is placed on homepage.)
 
-4. Upload the edited template file to your theme directory under a new `/ebfrtb-templates/` directory. This will likely look like `/wp-content/themes/your-theme/ebfrtb-templates/mpdf.php`.
+### Social Media Options
 
-Once the template has been uploaded to your theme, the plugin will automatically use your template instead of the default one.
+Which social media links should be displayed on the product page? Available options are: Facebook, LinkedIn, Twitter, Pinterest, Email
 
-{% include faq/support.md %}
+### Set Access Role
 
-{% include faq/refund.md %}
+Who should have access to the "Ultimate Product Catalog" admin menu? (Roles of contributor or higher will still be able to see the Products/Catalogs/Categories/Tags menus, but will not be able to edit the items [similar to how it works for the default post types in WordPress]).
+
+### Catalog Color
+
+Set the color of the layout tabs and border elements.
+
+### Disable Auto-Adjust Thumbnail Heights
+
+By default, the height of all product thumbnails is automatically adjusted to the height of the tallest one. This prevents rows with odd numbers of products, products not starting on the left, etc. This option allows you to disable this feature.
+
+### Sub-Category Style
+
+Should categories and sub-categories be arranged hierarchically or be grouped?
+
+### Read More
+
+In the 'Details' layout, should the product description be cutoff if it's long?
+
+### Characters in Details Description
+
+Set maximum number of characters in product description in the 'Details' layout
+
+### Show Catalog Information
+
+Should the name or description of the catalog be shown above the catalog?
+
+### Show Category Descriptions
+
+Should the descriptions of product categories be shown below the category headings in the catalog?
+
+### Display Category Image
+
+Should the category image be displayed on the main catalog page?
+
+### Display Sub-Category Image
+
+Should the sub-category image be displayed in the sidebar on the main catalog page?
+
+### Display Categories in Thumbnails
+
+Should the category and sub-category associated with a product be displayed in the product listing on the catalog page?
+
+### Display Tags in Thumbnails
+
+Should the tags associated with a product be displayed in the product listing on the catalog page?
+
+### Product Links
+
+Should external product links open in a new window?
+
+### Tag Logic
+
+Gives users the option to use multiple tags at the same time in filtering (select the 'OR' option for this)
+
+### Disable Price Filtering
+
+Should price filtering be hidden from the catalog sidebar?
+
+### Disable Slider Filter Text Inputs
+
+Should slider filter text inputs be disabled, preventing users from adjusting the min/max values by text?
+
+### Catalog Overview Mode
+
+When the catalog page first loads, should visitors see an overview of the categories instead of all products?
+
+### Product Search
+
+Select which portions of a product should be searched when using the text search box? Custom fields search can take significantly longer to return results.
+
+### 'Clear All' Option
+
+Should an option be added to the top of sidebar to clear all filtering options?
+
+### Hide Empty Filtering Options
+
+Should filtering options that would no longer display any results be hidden?
+
+### Breadcrumbs
+
+Which breadcrumbs, if any, should display on the product page?
+
+### Extra Elements
+
+Select elements to be displayed on each product page.
+
+### Disable Product Page Price
+
+Should the price be hidden on the product page?

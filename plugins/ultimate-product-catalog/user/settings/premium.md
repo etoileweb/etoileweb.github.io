@@ -2,34 +2,83 @@
 layout: default
 slug: ultimate-product-catalog
 menu: user
-title: Frequently Asked Questions
+title: Premium Settings
 ---
-*The following frequently asked questions only cover the [Export Bookings](../export-bookings) addon.*
+The following options are available by going to **Settings > Premium**
 
-## <a name="corrupt-pdf-exports"></a>The PDF export doesn't work. It results in a blank screen, a broken download file or a bunch of gibberish.
+### Product Page Type
 
-The default PDF renderer, mPDF, is not compatible with all servers. You can switch to a more widely compatible renderer by going to the **Bookings > Settings > Export** page in your WordPress admin area, and selecting the TCPDF renderer.
+What style of product page should be used?
 
-In some rare cases, this may not be compatible as well. You may be able to get help by asking your web host, who can change the configuration of your server.
+### Lightbox
 
-I've worked hard to ensure as wide a compatibility as possible. But if you're unable to get it working, I'll happily [provide a refund](#refund).
+Should a lightbox pop up on the product page when an image is clicked? Want to customize this lightbox? Install the free [Ultimate Lightbox](https://wordpress.org/plugins/ultimate-lightbox/) plugin and you can switch the lightbox colors, controls, behaviour and more!
 
-## Can I customize the PDF template?
+### Related Products
 
-Yes. To customize the template, you'll need to be able to edit template files similar to how you might edit your theme's template files.
+Should related products be created automatically, manually, or not at all?
 
-Here are the complete steps:
+### Next/Previous Products
 
-1. Determine which PDF renderer you are using. Go to **Bookings > Settings > Export** and look at the setting under PDF Renderer. It will be TCPDF or mPDF.
+Should next and previous products be displayed? Automatic takes the products with the next and previous IDs, if they exist.
 
-2. Copy the appropriate matching `.php` file from your `/wp-content/plugins/export-bookings-for-rtb/templates/` directory. If you're using the mPDF renderer, copy the `mpdf.php` file.
+### Lightbox Mode
 
-3. Edit the template however you'd like. Please note that the mPDF renderer is not as smart as a modern web browser. It only supports CSS 2.1 specifications, so it may not recognize all the CSS you're used to using. The TCPDF renderer is even tougher to work with.
+Should a lightbox pop up to display more information about products when they're clicked on (on the main catalog page)?
 
-4. Upload the edited template file to your theme directory under a new `/ebfrtb-templates/` directory. This will likely look like `/wp-content/themes/your-theme/ebfrtb-templates/mpdf.php`.
+### Infinite Scroll
 
-Once the template has been uploaded to your theme, the plugin will automatically use your template instead of the default one.
+Should more products load as a user scrolls down the page, instead of using the pagination system?
 
-{% include faq/support.md %}
+### Products per Page
 
-{% include faq/refund.md %}
+Set the maximum number of products per page for your catalogs.
+
+### Pagination Location
+
+Set the location of pagination controls for your catalogs.
+
+### Product Sorting
+
+Select which sorting options are available in the 'Sort By' box ('Review Rating' requires [Ultimate Reviews](https://www.etoilewebdesign.com/plugins/ultimate-reviews/) to be installed)
+
+### Disable Drop Down Sidebar Toggle on Mobile
+
+By default, on mobile devices, the filtering sidebar is hidden and a 'Filter' button is displayed, which can be clicked to make the sidebar show. This options gets rid of the button and makes the sidebar show by default.
+
+### Product Inquiry Form
+
+Should a form be added to inquire about products on the product page (requires plugin 'WP Forms' or 'Contact Form 7')?
+
+### Product Inquiry Cart
+
+Should users be able to inquire about multiple products at once from the main catalog page (requires plugin 'WP Forms' or 'Contact Form 7')?
+
+### Inquiry Plugin
+
+Which contact form plugin should be used, 'WP Forms' or 'Contact Form 7'?
+
+### Product Reviews
+
+Should reviews be displayed for products on the 'Tabbed Layout' product page (requires [Ultimate Reviews](https://www.etoilewebdesign.com/plugins/ultimate-reviews/) plugin)?
+
+### Reviews in Main Catalog
+
+Should a product's review rating be displayed on the main catalog page? (requires plugin [Ultimate Reviews](https://www.etoilewebdesign.com/plugins/ultimate-reviews/) plugin)?
+
+### Product FAQs
+
+Should FAQs be displayed for products on the Tabbed or Shop Style layout product page (requires [Ultimate FAQ](https://www.etoilewebdesign.com/plugins/ultimate-faq/) plugin)?
+
+### Allow Product Comparison
+
+Should visitors be able to compare products side by side by clicking on the comparison link?
+
+### Hide Blank Custom Fields
+
+Should custom fields be hidden when they are empty?
+
+### Disable Custom Slugs Conversion
+
+Should converting of custom field slugs used in the product descriptions be disabled? See [here](../custom-fields/shortcodes) for more info about custom field slugs.
+

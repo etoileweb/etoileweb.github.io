@@ -1,11 +1,11 @@
 ---
 layout: default
-slug: food-and-drink-menu
+slug: ultimate-faq
 menu: user
 title: Install Plugin
-plugin_title: Five Star Restaurant Menu
-plugin_url: https://wordpress.org/plugins/food-and-drink-menu/
+plugin_title: Ultimate FAQ
+plugin_url: https://www.etoilewebdesign.com/plugins/ultimate-faq/
 ---
 {% include plugins/install.md %}
 
-Now that the plugin is installed and activated, you'll want to [create your first menu](create-menu).
+Now that you've installed the plugin, you'll want to run through the [walk-through](setup).
