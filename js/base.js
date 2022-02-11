@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+jQuery( document ).ready( function( $ ) {
 
     var url = window.location.href,
         urlArray = url.split( '/' ),
