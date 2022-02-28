@@ -1,25 +1,19 @@
 plugins:
-  - title: Five Star Restaurant Reservations
-    page: restaurant-reservations
+  - title: Ultimate Product Catalog
+    page: ultimate-product-catalog
 
-  - title: Five Star Restaurant Menu
-    page: food-and-drink-menu
+  - title: Ultimate FAQ
+    page: ultimate-faq
 
-  - title: Five Star Business Profile & Schema
-    page: business-profile
+  - title: Ultimate Reviews
+    page: ultimate-reviews
 
-  - title: Five Star Restaurant Reviews
-    page: good-reviews-wp
+  - title: Order Tracking
+    page: order-tracking
 
 themes:
-  - title: Augustan
-    page: augustan
+  - title: Ultimate Showcase
+    page: ultimate-showcase
 
-  - title: Luigi
-    page: luigi
-
-  - title: The Spot
-    page: thespot
-
-  - title: Plate Up
-    page: plate-up
+  - title: Keep Calm and E-Comm
+    page: keep-calm-and-e-comm

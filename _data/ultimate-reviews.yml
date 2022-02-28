@@ -1,0 +1,197 @@
+title: Ultimate Reviews
+base: plugins/ultimate-reviews
+
+docs:
+  - title: User Guide
+    page: user
+  - title: Developer Documentation
+    page: developer
+
+user:
+  - title: Getting Started
+    page: user
+    flags: getting-started
+    items:
+    - title: Install Plugin
+      page: user/getting-started/install
+
+    - title: Walk-Through
+      page: user/getting-started/setup
+
+  - title: Reviews
+    page: user/reviews
+    flags: reviews
+    items:
+    - title: Submit Review Form
+      page: user/reviews/submit-review-form
+
+    - title: Display Reviews
+      page: user/reviews/display-reviews
+
+    - title: Create/Edit a Review
+      page: user/reviews/create
+
+    - title: Categories
+      page: user/reviews/categories
+
+    - title: Order of Reviews
+      page: user/reviews/order
+
+    - title: Admin Approval
+      page: user/reviews/approve
+
+    - title: Export Reviews
+      page: user/reviews/export
+
+    - title: Import Reviews
+      page: user/reviews/import
+
+  - title: Blocks and Shortcodes 
+    page: user/blocks-shortcodes
+    flags: blocks-shortcodes
+    items:
+    - title: Submit Review Block
+      page: user/blocks-shortcodes/submit-review-block
+
+    - title: Display Reviews Block
+      page: user/blocks-shortcodes/display-reviews-block
+
+    - title: submit-review Shortcode
+      page: user/blocks-shortcodes/submit-review-shortcode
+
+    - title: ultimate-reviews Shortcode
+      page: user/blocks-shortcodes/ultimate-reviews-shortcode
+
+    - title: select-review Shortcode
+      page: user/blocks-shortcodes/select-review-shortcode
+
+    - title: reviews-summary Shortcode
+      page: user/blocks-shortcodes/reviews-summary-shortcode
+
+  - title: Premium Version 
+    page: user/premium
+    flags: premium
+    items:
+    - title: Benefits of Premium
+      page: user/premium/benefits
+
+    - title: How to Purchase
+      page: user/premium/purchase
+
+    - title: Activate Premium
+      page: user/premium/activate
+
+    - title: Free 7-Day Trial
+      page: user/premium/trial      
+
+  - title: In-Depth Reviews 
+    page: user/custom-fields
+    flags: custom-fields
+    items:
+    - title: Create and Edit
+      page: user/custom-fields/create
+
+    - title: Use with Reviews
+      page: user/custom-fields/reviews
+
+  - title: WooCommerce Integration 
+    page: user/woocommerce
+    flags: woocommerce
+    items:
+    - title: Enable and Set Up
+      page: user/woocommerce/enable
+
+    - title: Reviews Reminders
+      page: user/woocommerce/reminders
+
+    - title: Troubleshooting
+      page: user/woocommerce/faq
+
+  - title: Settings
+    page: user/settings
+    flags: settings
+    items:
+    - title: Basic Settings
+      page: user/settings/basic
+
+    - title: Premium Settings
+      page: user/settings/premium
+
+  - title: Styling
+    page: user/styling
+    flags: styling
+    items:
+    - title: Styling Options
+      page: user/styling/index
+
+    - title: Custom CSS
+      page: user/styling/css
+
+  - title: Labelling and Translation
+    page: user/labelling
+    flags: labelling
+    items:
+    - title: Labelling Options
+      page: user/labelling/index
+
+    - title: Translating
+      page: user/labelling/translating
+
+    - title: Poedit
+      page: user/labelling/poedit
+
+  - title: Support
+    page: user/support
+    flags: support
+    items:
+    - title: YouTube Tutorials
+      page: user/support/youtube
+
+    - title: Contact Us
+      page: user/support/contact
+
+  - title: FAQ
+    page: user/faq
+    flags: faq
+    items:
+    - title: Is there a shortcode to display the submit review form?
+      page: user/faq#submit-shortcode
+
+    - title: Is there a shortcode to display reviews?
+      page: user/faq#display-shortcode
+
+    - title: Is there a Gutenberg block to display the submit review form?
+      page: user/faq#submit-block
+
+    - title: Is there a Gutenberg block to display reviews?
+      page: user/faq#display-block
+
+    - title: Can I have multiple reviews pages with different reviews on each?
+      page: user/faq#multiple-review-pages
+
+    - title: How do I sort the order of my reviews?
+      page: user/faq#sort-order
+
+    - title: Can I add extra fields to my reviews/submit review form?
+      page: user/faq#custom-fields
+
+    - title: How do I add multiple rating categories to my submit review form?
+      page: user/faq#in-depth-reviews
+
+    - title: The review single post page isn't displaying correctly
+      page: user/faq#single-urp
+
+    - title: Can I translate my reviews?
+      page: user/faq#translate
+
+    - title: Is this compatible with WPML?
+      page: user/faq#wpml
+
+    - title: Do you offer a free trial of the premium version?
+      page: user/faq#trial
+
+    - title: How do I contact support?
+      page: user/faq#support
+
+    - title: What is your refund policy?
+      page: user/faq#refund

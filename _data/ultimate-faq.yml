@@ -1,0 +1,220 @@
+title: Ultimate FAQ
+base: plugins/ultimate-faq
+
+docs:
+  - title: User Guide
+    page: user
+  - title: Developer Documentation
+    page: developer
+
+user:
+  - title: Getting Started
+    page: user
+    flags: getting-started
+    items:
+    - title: Install Plugin
+      page: user/getting-started/install
+
+    - title: Walk-Through
+      page: user/getting-started/setup
+
+  - title: FAQs
+    page: user/faqs
+    flags: faqs
+    items:
+    - title: Create an FAQ
+      page: user/faqs/create
+
+    - title: Add FAQs to a Page
+      page: user/faqs/add-faqs-to-page
+
+    - title: Categories
+      page: user/faqs/categories
+
+    - title: Tags
+      page: user/faqs/tags
+
+    - title: Order of FAQs
+      page: user/faqs/order
+
+    - title: Export FAQs
+      page: user/faqs/export
+
+    - title: Import FAQs
+      page: user/faqs/import
+
+  - title: Blocks and Shortcodes 
+    page: user/blocks-shortcodes
+    flags: blocks-shortcodes
+    items:
+    - title: Display FAQs Block
+      page: user/blocks-shortcodes/display-faqs-block
+
+    - title: Search FAQs Block
+      page: user/blocks-shortcodes/search-faqs-block
+
+    - title: Popular FAQs Block
+      page: user/blocks-shortcodes/popular-faqs-block
+
+    - title: Recent FAQs Block
+      page: user/blocks-shortcodes/recent-faqs-block
+
+    - title: Submit FAQ Block
+      page: user/blocks-shortcodes/submit-faq-block
+
+    - title: ultimate-faqs Shortcode
+      page: user/blocks-shortcodes/ultimate-faqs-shortcode
+
+    - title: ultimate-faq-search Shortcode
+      page: user/blocks-shortcodes/ultimate-faq-search-shortcode
+
+    - title: select-faq Shortcode
+      page: user/blocks-shortcodes/select-faq-shortcode
+
+    - title: popular-faqs Shortcode
+      page: user/blocks-shortcodes/popular-faqs-shortcode
+
+    - title: recent-faqs Shortcode
+      page: user/blocks-shortcodes/recent-faqs-shortcode
+
+    - title: top-rated-faq Shortcode
+      page: user/blocks-shortcodes/top-rated-faqs-shortcode
+
+    - title: submit-question Shortcode
+      page: user/blocks-shortcodes/submit-question-shortcode
+
+  - title: Premium Version 
+    page: user/premium
+    flags: premium
+    items:
+    - title: Benefits of Premium
+      page: user/premium/benefits
+
+    - title: How to Purchase
+      page: user/premium/purchase
+
+    - title: Activate Premium
+      page: user/premium/activate
+
+    - title: Free 7-Day Trial
+      page: user/premium/trial      
+
+  - title: FAQ Search
+    page: user/search
+    flags: search
+    items:
+    - title: Add Search to a Page
+      page: user/search/add-to-page
+
+    - title: FAQ
+      page: user/search/faq
+
+  - title: Custom Fields 
+    page: user/custom-fields
+    flags: custom-fields
+    items:
+    - title: Create and Edit
+      page: user/custom-fields/create
+
+    - title: Use with FAQs
+      page: user/custom-fields/faqs
+
+  - title: WooCommerce Integration 
+    page: user/woocommerce
+    flags: woocommerce
+    items:
+    - title: Enable
+      page: user/woocommerce/index
+
+    - title: Adding FAQs to a Product
+      page: user/woocommerce/add
+
+    - title: Troubleshooting
+      page: user/woocommerce/faq
+
+  - title: WPForms
+    page: user/wpforms
+    flags: wpforms
+    items:
+    - title: How-To
+      page: user/wpforms/index
+
+  - title: Settings
+    page: user/settings
+    flags: settings
+    items:
+    - title: Basic Settings
+      page: user/settings/basic
+
+    - title: Premium Settings
+      page: user/settings/premium
+
+  - title: Styling
+    page: user/styling
+    flags: styling
+    items:
+    - title: Styling Options
+      page: user/styling/index
+
+    - title: Custom CSS
+      page: user/styling/css
+
+  - title: Labelling and Translation
+    page: user/labelling
+    flags: labelling
+    items:
+    - title: Labelling Options
+      page: user/labelling/index
+
+    - title: Translating
+      page: user/labelling/translating
+
+    - title: Poedit
+      page: user/labelling/poedit
+
+  - title: Support
+    page: user/support
+    flags: support
+    items:
+    - title: YouTube Tutorials
+      page: user/support/youtube
+
+    - title: Contact Us
+      page: user/support/contact
+
+  - title: FAQ
+    page: user/faq
+    flags: faq
+    items:
+    - title: Is there a shortcode to display FAQs?
+      page: user/faq#shortcode
+
+    - title: Is there a Gutenberg block to display FAQs?
+      page: user/faq#block
+
+    - title: Can I have multiple FAQ pages with different FAQs on each?
+      page: user/faq#multiple-faq-pages
+
+    - title: How do I sort the order of my FAQs?
+      page: user/faq#sort-order
+
+    - title: Can I translate my FAQs?
+      page: user/faq#translate
+
+    - title: Is this compatible with WPML?
+      page: user/faq#wpml
+
+    - title: Can I add extra fields to my FAQs?
+      page: user/faq#custom-fields
+
+    - title: The individual FAQ page isn't displaying correctly
+      page: user/faq#single-ufaq
+
+    - title: Do you offer a free trial of the premium version?
+      page: user/faq#trial
+
+    - title: How do I contact support?
+      page: user/faq#support
+
+    - title: What is your refund policy?
+      page: user/faq#refund

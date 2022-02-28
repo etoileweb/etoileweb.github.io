@@ -8,6 +8,6 @@ Yoast has [written the book](https://yoast.com/wordpress-seo/) on Search Engine 
 
 I've written a few guides that break down those aspects of SEO that I believe are most critical to restaurants:
 
-- [Three fast steps to improve your restaurant SEO with Yoast](https://www.fivestarplugins.com/2015/02/17/three-fast-steps-improve-restaurant-seo-yoast/)
-- [Tending your SEO garden with Google's Search Console](https://www.fivestarplugins.com/2015/08/31/tending-your-seo-garden-with-googles-search-console/)
-- [But I'm big in Japan: local search for your restaurant website](https://www.fivestarplugins.com/2015/03/18/but-im-big-in-japan-local-search-for-your-restaurant-website/)
+- [Three fast steps to improve your restaurant SEO with Yoast](https://www.etoilewebdesign.com/2015/02/17/three-fast-steps-improve-restaurant-seo-yoast/)
+- [Tending your SEO garden with Google's Search Console](https://www.etoilewebdesign.com/2015/08/31/tending-your-seo-garden-with-googles-search-console/)
+- [But I'm big in Japan: local search for your restaurant website](https://www.etoilewebdesign.com/2015/03/18/but-im-big-in-japan-local-search-for-your-restaurant-website/)

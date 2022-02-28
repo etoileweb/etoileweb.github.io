@@ -1,0 +1,221 @@
+title: Ultimate Product Catalog
+base: plugins/ultimate-product-catalog
+
+docs:
+  - title: User Guide
+    page: user
+  - title: Developer Documentation
+    page: developer
+
+user:
+  - title: Getting Started
+    page: user
+    flags: getting-started
+    items:
+    - title: Install Plugin
+      page: user/getting-started/install
+
+    - title: Walk-Through
+      page: user/getting-started/setup
+
+  - title: Products
+    page: user/products
+    flags: products
+    items:
+    - title: Create a Product
+      page: user/products/create
+
+    - title: Categories
+      page: user/products/categories
+
+    - title: Tags
+      page: user/products/tags
+
+    - title: Export Products
+      page: user/products/export
+
+    - title: Import Products
+      page: user/products/import
+
+  - title: Catalogs
+    page: user/catalogs
+    flags: catalogs
+    items:
+    - title: Create a Catalog
+      page: user/catalogs/create
+
+    - title: Add Products to a Catalog
+      page: user/catalogs/add-products
+
+    - title: Order of Products
+      page: user/catalogs/order
+
+    - title: Add Catalog to a Page
+      page: user/catalogs/add-catalog-to-page
+
+  - title: Block and Shortcodes 
+    page: user/block-shortcodes
+    flags: block-shortcodes
+    items:
+    - title: Display Catalog Block
+      page: user/block-shortcodes/display-catalog-block
+
+    - title: product-catalog Shortcode
+      page: user/block-shortcodes/product-catalog-shortcode
+
+    - title: insert-products Shortcode
+      page: user/block-shortcodes/insert-products-shortcode
+
+  - title: Premium Version 
+    page: user/premium
+    flags: premium
+    items:
+    - title: Benefits of Premium
+      page: user/premium/benefits
+
+    - title: How to Purchase
+      page: user/premium/purchase
+
+    - title: Activate Premium
+      page: user/premium/activate
+
+    - title: Free 7-Day Trial
+      page: user/premium/trial      
+      
+  - title: Custom Fields 
+    page: user/custom-fields
+    flags: custom-fields
+    items:
+    - title: Create and Edit
+      page: user/custom-fields/create
+
+    - title: Use with Products
+      page: user/custom-fields/products
+
+    - title: Use for Filtering
+      page: user/custom-fields/filters
+
+    - title: Display Value via Shortcode
+      page: user/custom-fields/shortcodes
+
+  - title: WooCommerce Integration 
+    page: user/woocommerce
+    flags: woocommerce
+    items:
+    - title: Sync
+      page: user/woocommerce/sync
+
+    - title: Checkout
+      page: user/woocommerce/checkout
+
+    - title: Product Page
+      page: user/woocommerce/product-page
+
+    - title: FAQ
+      page: user/woocommerce/faq
+
+  - title: Product Page
+    page: user/product-page
+    flags: product-page
+    items:
+    - title: Starting Tab
+      page: user/product-page/starting-tab
+
+    - title: Additional Tabs
+      page: user/product-page/additional-tabs
+
+  - title: SEO
+    page: user/seo
+    flags: seo
+    items:
+    - title: Settings
+      page: user/seo/index
+
+    - title: Post Type Archives
+      page: user/seo/post-types
+
+  - title: Settings
+    page: user/settings
+    flags: settings
+    items:
+    - title: Basic Settings
+      page: user/settings/basic
+
+    - title: Premium Settings
+      page: user/settings/premium
+
+  - title: Styling
+    page: user/styling
+    flags: styling
+    items:
+    - title: Styling Options
+      page: user/styling/index
+
+    - title: Custom CSS
+      page: user/styling/css
+
+  - title: Labelling and Translation
+    page: user/labelling
+    flags: labelling
+    items:
+    - title: Labelling Options
+      page: user/labelling/index
+
+    - title: Translating
+      page: user/labelling/translating
+
+    - title: Poedit
+      page: user/labelling/poedit
+
+  - title: Support
+    page: user/support
+    flags: support
+    items:
+    - title: YouTube Tutorials
+      page: user/support/youtube
+
+    - title: Contact Us
+      page: user/support/contact
+
+  - title: FAQ
+    page: user/faq
+    flags: faq
+    items:
+    - title: Is there a shortcode to display the catalog?
+      page: user/faq#shortcode
+
+    - title: Is there a Gutenberg block to display the catalog?
+      page: user/faq#block
+
+    - title: Can I change the default layout of the catalog?
+      page: user/faq#starting-layout
+
+    - title: Can I remove layouts from the catalog?
+      page: user/faq#excluded-layouts
+
+    - title: Can I remove the sidebar from my catalog page?
+      page: user/faq#sidebar
+
+    - title: How do I sort the order of the products in my catalog?
+      page: user/faq#sort-order
+
+    - title: Can I translate my products and catalogs?
+      page: user/faq#translate
+
+    - title: Is this compatible with WPML?
+      page: user/faq#wpml
+
+    - title: Can I add extra fields to my products?
+      page: user/faq#custom-fields
+
+    - title: My custom fields are not displaying
+      page: user/faq#custom-fields-not-displaying
+
+    - title: Do you offer a free trial of the premium version?
+      page: user/faq#trial
+
+    - title: How do I contact support?
+      page: user/faq#support
+
+    - title: What is your refund policy?
+      page: user/faq#refund
