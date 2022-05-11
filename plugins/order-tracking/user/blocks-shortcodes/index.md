@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: ultimate-faq
+slug: order-tracking
 menu: user
 title: Block and Shortcodes
 ---
