@@ -40,7 +40,7 @@ Should an email be sent to the WordPress admin?
 
 ### Summary Statistics
 
-Should a summary of the reviews be displayed at the top (average score, etc.)? This feature may not work as expected with in-depth reviews and/or pagination.
+Should a summary of the reviews be displayed at the top (average score, etc.)? This requires that you have your reviews grouped by product. This feature may not work as expected with in-depth reviews and/or pagination.
 
 ### Clickable Summary Stats
 
