@@ -60,11 +60,38 @@ user:
     - title: Display Catalog Block
       page: user/block-shortcodes/display-catalog-block
 
+    - title: Insert Products Block
+      page: user/block-shortcodes/insert-products-block
+
+    - title: Popular Products Block
+      page: user/block-shortcodes/popular-products-block
+
+    - title: Recent Products Block
+      page: user/block-shortcodes/recent-products-block
+
+    - title: Random Products Block
+      page: user/block-shortcodes/random-products-block
+
+    - title: Product Search Block
+      page: user/block-shortcodes/product-search-block
+
     - title: product-catalog Shortcode
       page: user/block-shortcodes/product-catalog-shortcode
 
     - title: insert-products Shortcode
       page: user/block-shortcodes/insert-products-shortcode
+
+    - title: upcp-popular-products Shortcode
+      page: user/block-shortcodes/upcp-popular-products-shortcode
+
+    - title: upcp-recent-products Shortcode
+      page: user/block-shortcodes/upcp-recent-products-shortcode
+
+    - title: upcp-random-products Shortcode
+      page: user/block-shortcodes/upcp-random-products-shortcode
+
+    - title: upcp-search Shortcode
+      page: user/block-shortcodes/upcp-search-shortcode
 
   - title: Premium Version 
     page: user/premium
