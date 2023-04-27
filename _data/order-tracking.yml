@@ -68,17 +68,20 @@ user:
     - title: customer-order Shortcode
       page: user/blocks-shortcodes/customer-order-shortcode
 
-  - title: Premium Version 
+  - title: Premium & Ultimate Versions
     page: user/premium
     flags: premium
     items:
     - title: Benefits of Premium
       page: user/premium/benefits
 
+    - title: Benefits of Ultimate
+      page: user/premium/ultimate-benefits
+
     - title: How to Purchase
       page: user/premium/purchase
 
-    - title: Activate Premium
+    - title: Activate Premium or Ultimate
       page: user/premium/activate
 
     - title: Free 7-Day Trial
@@ -136,18 +139,21 @@ user:
     - title: Troubleshooting
       page: user/woocommerce/faq
 
-  - title: Emails
-    page: user/emails
-    flags: emails
+  - title: Notifications
+    page: user/notifications
+    flags: notifications
     items:
     - title: Create Emails
-      page: user/emails/create
+      page: user/notifications/email
 
     - title: Ultimate WP Mail
-      page: user/emails/ultimate-wp-mail
+      page: user/notifications/ultimate-wp-mail
 
-    - title: Email Notifications
-      page: user/emails/notifications
+    - title: Enable Notifications
+      page: user/notifications/notifications
+
+    - title: SMS Notifications
+      page: user/notifications/sms
 
   - title: Settings
     page: user/settings

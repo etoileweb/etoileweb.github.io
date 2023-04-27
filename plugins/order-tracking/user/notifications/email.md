@@ -4,15 +4,18 @@ slug: order-tracking
 menu: user
 title: Create and Edit Emails
 ---
-To create or edit an email, go to **Emails** area of the **Settings** page. Here you will see a table with all your existing emails as well as a button to add a new one. The plugin comes with a few default emails, which you can modify to your liking, use as-is or remove.
+To create or edit an email, go to the **Notifications** area of the **Settings** page. Here you will see a table with all your existing emails as well as a button to add a new one. The plugin comes with a few default emails, which you can modify to your liking, use as-is or remove.
 
-![Screenshot of the Emails settings page](/img/{{ page.slug }}/otp-settings-emails.png)
+![Screenshot of the Emails settings page](/img/{{ page.slug }}/otp-emails-table.png)
 
-The process is the same to add or create an email. You need to fill in the following for each:
+The process is the same to add or modify an email. You need to fill in the following for each:
 
 - **Name**: The name you want to give to your email. This is used for you to identify the email when choosing which one you want to assign to a status or other notification.
 - **Subject**: The subject of the email that will be sent.
 - **Message**: The message or content of the email that will be sent.
+
+![Screenshot of editing an email message](/img/{{ page.slug }}/otp-email-edit.png)
+
 
 ## Order-Specific Information
 
