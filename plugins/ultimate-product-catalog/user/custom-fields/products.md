@@ -28,4 +28,4 @@ If, when [creating your custom field](create), you checked the **Tabbed Product 
 
 ![Screenshot of custom field in additional information tab on product page](/img/{{ page.slug }}/upcp-custom-fields-5.png)
 
-It is also possible to create a custom tab on your product page to be used for dynamically displaying custom field information. More about that can be found [here](../product-page/custom-fields).
+It is also possible to create a custom tab on your product page to be used for dynamically displaying custom field information. More about that can be found [here](../product-page/additional-tabs#dynamic-content).
