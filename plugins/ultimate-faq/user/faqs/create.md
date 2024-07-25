@@ -23,3 +23,7 @@ Once you click the **Publish** button at the top, your FAQ will be published.
 ## Premium Features
 
 If you have the premium version of the plugin, then, in the **FAQ Details** section, in addition to the author display name, you will also be able to fill in any [custom fields](../custom-fields) you have created/added.
+
+## Generate FAQs using AI
+
+The plugin also has the ability to automatically generate FAQs using AI. You can read more about this [here](ai).

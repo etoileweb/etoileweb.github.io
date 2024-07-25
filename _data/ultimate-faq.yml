@@ -25,6 +25,9 @@ user:
     - title: Create an FAQ
       page: user/faqs/create
 
+    - title: Create FAQs using AI
+      page: user/faqs/ai
+
     - title: Add FAQs to a Page
       page: user/faqs/add-faqs-to-page
 
